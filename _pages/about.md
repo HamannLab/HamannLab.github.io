@@ -1,7 +1,8 @@
 ---
 layout: single
+title: "Hamann Lab"
+permalink: /
 author_profile: true
-title: "About"
 ---
 
 ## Hamann Lab  
