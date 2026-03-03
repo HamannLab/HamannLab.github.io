@@ -13,5 +13,28 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
+<style>
+:root{
+  --hamann-purple: #3D2C8D;
+  --hamann-purple-dark: #2C1F66;
+  --msu-green: #18453B;
+}
 
+a { color: var(--hamann-purple) !important; }
+a:hover { color: var(--hamann-purple-dark) !important; }
+
+.btn, .btn--primary{
+  background-color: var(--hamann-purple) !important;
+  border-color: var(--hamann-purple) !important;
+}
+
+.btn:hover, .btn--primary:hover{
+  background-color: var(--hamann-purple-dark) !important;
+  border-color: var(--hamann-purple-dark) !important;
+}
+
+.masthead {
+  border-bottom: 3px solid var(--msu-green) !important;
+}
+</style>
 <!-- end custom head snippets -->
