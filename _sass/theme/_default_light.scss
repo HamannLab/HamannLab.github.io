@@ -27,22 +27,22 @@ $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Default light theme for the site */
+/* Hamann Lab - Optimized Light Theme */
 :root {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #fff;
+    --global-base-color                : #3D2C8D;    /* Hamann Purple */
+    --global-bg-color                   : #ffffff;    /* Pure White Background */
     --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
+    --global-border-color               : #18453B;    /* MSU Green for borders */
+    --global-dark-border-color          : #18453B;    /* MSU Green */
     --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-code-text-color            : #222222;    /* High-contrast dark text */
+    --global-fig-caption-color          : #444444;
+    --global-link-color                 : #3D2C8D;    /* Hamann Purple links */
+    --global-link-color-hover           : #2C1F66;    /* Slightly darker purple */
+    --global-link-color-visited         : #3D2C8D;  
+    --global-masthead-link-color        : #222222;    /* FIXED: This makes nav text black/readable */
+    --global-masthead-link-color-hover  : #3D2C8D;    
+    --global-text-color                 : #222222;    /* FIXED: Main text will be dark and readable */
+    --global-text-color-light           : #666666;
+    --global-thead-color                : #f2f3f3;
 }
-
