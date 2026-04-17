@@ -1,5 +1,5 @@
 /* ==========================================================================
-   HAMANN LAB - DARK MODE DEFINITIVE FIX
+   HAMANN LAB - DARK MODE "NO STREAKS" FIX
    ========================================================================== */
 
 $msu-green:     #18453B;
@@ -14,26 +14,32 @@ html[data-theme="dark"] {
     --global-link-color:                #{$light-purple};
     --global-border-color:              #{$msu-green};
 
-    /* THE BANNER (Force Background to Purple) */
-    .masthead {
+    /* THE BANNER (Targeting all layers to remove the light band) */
+    .masthead, 
+    .masthead__inner-wrap, 
+    #site-nav {
         background-color: #3D2C8D !important;
-        border-bottom: 2px solid #18453B !important;
+        border: none !important;
+        box-shadow: none !important;
     }
 
-    /* NAVIGATION LINKS (Force "Talks", etc. to White) */
+    /* Force the very top margin/border to disappear */
+    .masthead {
+        border-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    /* NAVIGATION LINKS (White text) */
     .masthead__menu-item a, 
     .site-title,
     .site-title a {
         color: #ffffff !important;
     }
 
-    /* SIDEBAR LINKS (Force Icons/Text to White) */
+    /* SIDEBAR LINKS (White Icons) */
     .author__urls-wrapper a,
     .author__urls-wrapper span,
     .author__urls-wrapper i {
         color: #ffffff !important;
     }
-
-    /* Footer */
-    --global-footer-bg-color:           #0a0a0a;
 }
