@@ -1,60 +1,35 @@
 /* ==========================================================================
-   HAMANN LAB CUSTOM DARK THEME
+   HAMANN LAB - HIGH CONTRAST DARK THEME
    ========================================================================== */
 
-/* 1. Core Branding Colors */
+/* 1. Define the specific colors */
+$bg-charcoal:  #1a1a1a;
 $msu-green:     #18453B;
 $hamann-purple: #3D2C8D;
-$light-purple:  #A394F0; /* Brighter purple for readability on dark backgrounds */
+$light-purple:  #A394F0; /* Brighter purple for links so they don't vanish */
 
-/* 2. Theme Variables */
-$primary-color: $light-purple;
-$gray:          #7a8288;
-$dark-gray:     #222222;
-$light-gray:    #bbbbbb;
-
-/* 3. Background and Text Settings */
-$background:         #1e1e1e; /* Deep charcoal (easier on eyes than pure black) */
-$background-light:   #2d2d2d;
-$background-lighter: #3d3d3d;
-$text:               #ffffff; /* Pure white text for maximum contrast */
-$link:               $light-purple;
-$link-dark:          #ffffff;
-$link-light:         #d1c9f9;
-
-/* 4. Functional Colors */
-$danger-color:  #ee5f5b;
-$info-color:    #2f7f93;
-$notice-color:  $msu-green;
-$success-color: #62c462;
-$warning-color: #f89406;
-
-/* 5. Layout Settings */
-$border-radius:             4px;
-$box-shadow:                0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition:         all 0.2s ease-in-out;
-$masthead-height:           70px;
-$navicon-width:             28px;
-$navicon-height:            4px;
-$sidebar-link-max-width:    250px;
-$sidebar-screen-min-width:  1024px;
-
-/* 6. The CSS Variables (The actual "Engine" of the site) */
+/* 2. Apply them to the theme */
 html[data-theme="dark"] {
-    --global-base-color:                #{$primary-color};
-    --global-bg-color:                  #{$background};
-    --global-footer-bg-color:           #151515;
+    /* Backgrounds */
+    --global-bg-color:                  #{$bg-charcoal};
+    --global-footer-bg-color:           #111111;
+    --global-code-background-color:     #2d2d2d;
+    
+    /* Borders - Using MSU Green */
     --global-border-color:              #{$msu-green};
     --global-dark-border-color:         #{$hamann-purple};
-    --global-code-background-color:     #2d2d2d;
-    --global-code-text-color:           #e0e0e0;
-    --global-fig-caption-color:         #{$light-gray};
-    --global-link-color:                #{$link};
-    --global-link-color-hover:          #{$link-dark};
-    --global-link-color-visited:        #{$link-light};
-    --global-masthead-link-color:       #ffffff;
-    --global-masthead-link-color-hover: #{$primary-color};
-    --global-text-color:                #{$text};
-    --global-text-color-light:          #f3f3f3;
-    --global-thead-color:               #{$background-lighter};
+    
+    /* Text - Forcing High Contrast */
+    --global-text-color:                #ffffff; /* Pure white body text */
+    --global-text-color-light:          #cccccc; /* Light grey sub-text */
+    --global-masthead-link-color:       #ffffff; /* White navigation text */
+    --global-masthead-link-color-hover: #{$light-purple};
+    
+    /* Links - Using Hamann Purple */
+    --global-link-color:                #{$light-purple};
+    --global-link-color-hover:          #ffffff;
+    --global-link-color-visited:        #{$light-purple};
+    
+    /* Tables and Misc */
+    --global-thead-color:               #2d2d2d;
 }
