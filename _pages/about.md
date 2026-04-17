@@ -1,5 +1,9 @@
 ## Hamann Lab
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/images/group.jpg" alt="Hamann Lab Group" style="max-width: 100%; border-radius: 8px;">
+</div>
+
 ### Electrochemistry | Catalysis | Energy
 
 We use electrochemistry to understand and control chemical reactivity.
