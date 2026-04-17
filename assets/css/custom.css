@@ -1,52 +1,42 @@
+/* 1. Global Branding Variables */
 :root {
-  --hamann-purple: #3D2C8D;
-  --hamann-purple-light: #A394F0;
   --msu-green: #18453B;
-  --pure-white: #ffffff;
+  --hamann-purple: #3D2C8D;
 }
 
-/* --- LIGHT MODE SETTINGS --- */
-html[data-theme="light"] {
-  --link-color: var(--hamann-purple);
-  --masthead-bg: #ffffff;
-  --masthead-text: #222222;
+/* 2. THE SUN (Light Mode) */
+html[data-theme="light"] .masthead {
+  background-color: #ffffff !important;
+  border-bottom: 3px solid var(--msu-green) !important;
+}
+html[data-theme="light"] .masthead__menu-item a,
+html[data-theme="light"] .site-title a {
+  color: #222222 !important;
 }
 
-/* --- DARK MODE SETTINGS --- */
-html[data-theme="dark"] {
-  --link-color: var(--hamann-purple-light);
-  --masthead-bg: var(--hamann-purple);
-  --masthead-text: var(--pure-white);
-}
-
-/* 1. The Banner (Masthead) */
-.masthead, .masthead__inner-wrap {
-  background-color: var(--masthead-bg) !important;
+/* 3. THE MOON (Dark Mode) - THE FIX */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead__inner-wrap,
+html[data-theme="dark"] #site-nav {
+  background-color: var(--hamann-purple) !important;
   background-image: none !important;
   border-bottom: 3px solid var(--msu-green) !important;
   box-shadow: none !important;
 }
 
-/* 2. Banner Text (Hamann Lab, Publications, etc.) */
-.site-title, .site-title a, .masthead__menu-item a {
-  color: var(--masthead-text) !important;
+html[data-theme="dark"] .masthead__menu-item a,
+html[data-theme="dark"] .site-title a,
+html[data-theme="dark"] .site-title {
+  color: #ffffff !important;
   border-bottom: none !important;
 }
 
-/* 3. Global Links */
-a {
-  color: var(--link-color) !important;
-}
+/* 4. Link Colors for both modes */
+html[data-theme="light"] a { color: var(--hamann-purple) !important; }
+html[data-theme="dark"] a { color: #A394F0 !important; }
 
-/* 4. Sidebar Social Icons (PubMed, etc.) */
+/* 5. Sidebar Fix */
 html[data-theme="dark"] .author__urls-wrapper a,
 html[data-theme="dark"] .author__urls-wrapper i {
-  color: var(--pure-white) !important;
-}
-
-/* 5. Buttons */
-.btn, .btn--primary {
-  background-color: var(--hamann-purple) !important;
-  border-color: var(--hamann-purple) !important;
-  color: #fff !important;
+  color: #ffffff !important;
 }
