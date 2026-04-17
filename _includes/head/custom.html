@@ -1,11 +1,8 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
-
-<!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -13,35 +10,70 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
+
 <style>
-:root{
-  --hamann-purple: #3D2C8D;
-  --hamann-purple-dark: #2C1F66;
-  --msu-green: #18453B;
-}
+  /* 1. GLOBAL BRANDING VARIABLES */
+  :root {
+    --hamann-purple: #3D2C8D;
+    --hamann-purple-dark: #2C1F66;
+    --hamann-purple-light: #A394F0;
+    --msu-green: #18453B;
+  }
 
-a { color: var(--hamann-purple) !important; }
-a:hover { color: var(--hamann-purple-dark) !important; }
+  /* 2. SHARED STYLES (Buttons) */
+  .btn, .btn--primary {
+    background-color: var(--hamann-purple) !important;
+    border-color: var(--hamann-purple) !important;
+    color: #ffffff !important;
+  }
+  .btn:hover, .btn--primary:hover {
+    background-color: var(--hamann-purple-dark) !important;
+    border-color: var(--hamann-purple-dark) !important;
+  }
 
-.btn, .btn--primary{
-  background-color: var(--hamann-purple) !important;
-  border-color: var(--hamann-purple) !important;
-}
+  /* 3. LIGHT MODE (SUN) */
+  html[data-theme="light"] body { 
+    background-color: #ffffff !important; 
+  }
+  html[data-theme="light"] .masthead {
+    background-color: #ffffff !important;
+    border-bottom: 3px solid var(--msu-green) !important;
+  }
+  html[data-theme="light"] .site-title, 
+  html[data-theme="light"] .masthead__menu-item a {
+    color: #222222 !important;
+  }
+  html[data-theme="light"] a { 
+    color: var(--hamann-purple) !important; 
+  }
 
-.btn:hover, .btn--primary:hover{
-  background-color: var(--hamann-purple-dark) !important;
-  border-color: var(--hamann-purple-dark) !important;
-}
+  /* 4. DARK MODE (MOON) - THE FINAL BANNER FIX */
+  html[data-theme="dark"] .masthead,
+  html[data-theme="dark"] .masthead__inner-wrap,
+  html[data-theme="dark"] #site-nav {
+    background-color: var(--hamann-purple) !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-bottom: 3px solid var(--msu-green) !important;
+  }
 
-.masthead {
-  border-bottom: 3px solid var(--msu-green) !important;
-}
+  /* Make nav text white in dark mode */
+  html[data-theme="dark"] .site-title,
+  html[data-theme="dark"] .site-title a,
+  html[data-theme="dark"] .masthead__menu-item a {
+    color: #ffffff !important;
+    border-bottom: none !important;
+  }
+
+  /* Make links readable on dark background */
+  html[data-theme="dark"] a { 
+    color: var(--hamann-purple-light) !important; 
+  }
+
+  /* Make sidebar icons/text white in dark mode */
+  html[data-theme="dark"] .author__urls-wrapper a,
+  html[data-theme="dark"] .author__urls-wrapper i,
+  html[data-theme="dark"] .author__urls-wrapper span {
+    color: #ffffff !important;
+  }
 </style>
-<style>
-/* OBVIOUS TEST — remove once confirmed */
-body { background: #faf7ff !important; } /* very light lavender */
-a, a:visited { color: #3D2C8D !important; }
-a:hover { color: #2C1F66 !important; }
-.masthead { border-bottom: 4px solid #18453B !important; }
-</style>
-<!-- end custom head snippets -->
