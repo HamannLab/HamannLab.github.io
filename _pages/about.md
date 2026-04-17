@@ -1,59 +1,49 @@
----
-layout: single
-title: "Hamann Lab"
-permalink: /
-author_profile: true
----
+## Hamann Lab
 
-## Hamann Lab  
-### Interfacial Electron Transfer | Photocatalysis | Energy Materials
+### Electrochemistry | Catalysis | Energy
 
-We investigate how electrons move across complex interfaces — and how controlling those processes can unlock new strategies for solar energy conversion, electrocatalysis, and functional materials design.
+We use electrochemistry to understand and control chemical reactivity.
 
-Our work sits at the intersection of inorganic chemistry, materials chemistry, and physical chemistry. We combine synthetic control, electrochemistry, spectroscopy, and device-level studies to understand and design systems where interfacial charge transfer determines performance.
+Our research focuses on how electrons move through molecular systems and how those processes govern catalytic reactions relevant to energy conversion and storage. By combining electrochemical methods with synthesis and spectroscopy, we aim to uncover fundamental relationships between structure, reactivity, and mechanism.
 
 ---
 
-## Research Themes
+## Research Areas
 
-### ⚡ Interfacial Electron Transfer
-Understanding and controlling charge transport at semiconductor and molecular interfaces. We probe fundamental kinetics and thermodynamics to reveal how structure governs reactivity.
+### ⚡ Electrochemistry & Reaction Mechanisms
+We use electrochemical techniques to probe reaction pathways, kinetics, and thermodynamics. Our goal is to develop a molecular-level understanding of how electron transfer drives chemical transformations.
 
-### ☀️ Photocatalysis & Solar Energy Conversion
-Designing materials and architectures that convert light into chemical fuel. We explore surface-bound catalysts, mesoscopic films, and hybrid systems.
+### 🔬 Catalysis & Redox Chemistry
+We study catalytic systems where redox processes control reactivity, with an emphasis on identifying key intermediates and mechanistic steps.
 
-### 🧪 Mesoscopic & Functional Materials
-Engineering structured materials to control charge separation, recombination, and catalytic turnover at the nanoscale.
+### 🔋 Energy-Relevant Chemical Systems
+Our work connects fundamental electrochemistry to problems in energy conversion, where controlling electron flow is essential for efficient chemical transformations.
 
 ---
 
 ## Why This Matters
 
-Energy conversion technologies depend on controlling electron movement at interfaces. Small changes in molecular structure or surface organization can determine whether a system efficiently produces fuel — or wastes energy as heat.
-
-Our group works to identify those controlling principles and translate them into better-performing materials.
+Electrochemical methods provide a direct way to study and control chemical reactivity. By understanding how electron transfer governs catalytic processes, we aim to develop new insights that enable more efficient and selective chemical transformations.
 
 ---
 
-## Join the Hamann Lab
+## Join the Lab
 
-We are always interested in curious, motivated students who enjoy building, measuring, and thinking deeply about how things work.
+We are always interested in motivated undergraduate, graduate, and postdoctoral researchers.
 
-Students in the lab gain experience in:
+Students in the group gain experience in:
+- Electrochemistry and reaction kinetics  
+- Catalysis and mechanistic analysis  
+- Inorganic synthesis  
+- Data analysis and quantitative modeling  
 
-- Advanced electrochemistry  
-- Materials synthesis and characterization  
-- Mechanistic analysis of redox systems  
-- Collaborative, interdisciplinary research  
-
-If you are interested in graduate study or postdoctoral research, please reach out.
+If you're interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
 
 ---
 
-## Explore More
+## Get in Touch
 
-- Publications  
-- Research Projects  
-- Group Members  
+📍 East Lansing, MI  
+🏫 Michigan State University  
 
-(Links available in the top navigation menu.)
+For inquiries about research opportunities or collaborations, please contact us by email.
