@@ -1,35 +1,44 @@
 /* ==========================================================================
-   HAMANN LAB - HIGH CONTRAST DARK THEME
+   HAMANN LAB - ULTIMATE DARK MODE FIX
    ========================================================================== */
 
-/* 1. Define the specific colors */
-$bg-charcoal:  #1a1a1a;
+/* 1. Define Brand Colors */
 $msu-green:     #18453B;
-$hamann-purple: #3D2C8D;
-$light-purple:  #A394F0; /* Brighter purple for links so they don't vanish */
+$hamann-purple: #3D2C8D; /* The Lab Purple */
+$dark-charcoal: #121212;
+$pure-white:    #ffffff;
+$light-purple:  #A394F0; /* Readable purple for links */
 
-/* 2. Apply them to the theme */
+/* 2. Apply to Dark Theme */
 html[data-theme="dark"] {
-    /* Backgrounds */
-    --global-bg-color:                  #{$bg-charcoal};
-    --global-footer-bg-color:           #111111;
-    --global-code-background-color:     #2d2d2d;
+    /* Main Background */
+    --global-bg-color:                  #{$dark-charcoal};
+    --global-text-color:                #{$pure-white};
     
-    /* Borders - Using MSU Green */
-    --global-border-color:              #{$msu-green};
-    --global-dark-border-color:         #{$hamann-purple};
-    
-    /* Text - Forcing High Contrast */
-    --global-text-color:                #ffffff; /* Pure white body text */
-    --global-text-color-light:          #cccccc; /* Light grey sub-text */
-    --global-masthead-link-color:       #ffffff; /* White navigation text */
+    /* THE BANNER (Masthead) - Force Dark Purple background */
+    --global-masthead-bg-color:         #{$hamann-purple}; 
+    --global-masthead-link-color:       #{$pure-white}; /* "Talks, Teaching" labels */
     --global-masthead-link-color-hover: #{$light-purple};
+
+    /* THE SIDEBAR (Profile Links) */
+    --global-sidebar-bg-color:          #1a1a1a;
+    --global-sidebar-link-color:        #{$pure-white}; /* "PubMed, ORCID" links */
+    --global-sidebar-link-color-hover:  #{$light-purple};
+
+    /* Footer & Borders */
+    --global-footer-bg-color:           #0a0a0a;
+    --global-border-color:              #{$msu-green};
     
-    /* Links - Using Hamann Purple */
+    /* Body Links */
     --global-link-color:                #{$light-purple};
-    --global-link-color-hover:          #ffffff;
-    --global-link-color-visited:        #{$light-purple};
-    
-    /* Tables and Misc */
-    --global-thead-color:               #2d2d2d;
+    --global-link-color-hover:          #{$pure-white};
+}
+
+/* 3. Extra Force (Just in case the theme is stubborn) */
+html[data-theme="dark"] .masthead {
+    background-color: #3D2C8D !important;
+}
+
+html[data-theme="dark"] .sidebar .author__urls-wrapper a {
+    color: #ffffff !important;
 }
