@@ -1,42 +1,42 @@
-/* 1. Global Branding Variables */
+/* 1. Global Variables */
 :root {
-  --msu-green: #18453B;
   --hamann-purple: #3D2C8D;
+  --msu-green: #18453B;
 }
 
-/* 2. THE SUN (Light Mode) */
-html[data-theme="light"] .masthead {
-  background-color: #ffffff !important;
-  border-bottom: 3px solid var(--msu-green) !important;
-}
-html[data-theme="light"] .masthead__menu-item a,
-html[data-theme="light"] .site-title a {
-  color: #222222 !important;
-}
-
-/* 3. THE MOON (Dark Mode) - THE FIX */
-html[data-theme="dark"] .masthead,
-html[data-theme="dark"] .masthead__inner-wrap,
-html[data-theme="dark"] #site-nav {
-  background-color: var(--hamann-purple) !important;
+/* 2. FORCE DARK MODE (The Moon) */
+/* We target the ID #masthead and the class .masthead simultaneously */
+html[data-theme="dark"] body #masthead,
+html[data-theme="dark"] body .masthead,
+html[data-theme="dark"] body .masthead__inner-wrap {
+  background-color: #3D2C8D !important;
+  background: #3D2C8D !important; /* Secondary force */
   background-image: none !important;
-  border-bottom: 3px solid var(--msu-green) !important;
+  border-bottom: 3px solid #18453B !important;
   box-shadow: none !important;
 }
 
+/* Force Nav Text to White */
 html[data-theme="dark"] .masthead__menu-item a,
-html[data-theme="dark"] .site-title a,
-html[data-theme="dark"] .site-title {
+html[data-theme="dark"] .site-title,
+html[data-theme="dark"] .site-title a {
   color: #ffffff !important;
-  border-bottom: none !important;
+  opacity: 1 !important;
 }
 
-/* 4. Link Colors for both modes */
-html[data-theme="light"] a { color: var(--hamann-purple) !important; }
-html[data-theme="dark"] a { color: #A394F0 !important; }
+/* 3. FORCE LIGHT MODE (The Sun) */
+html[data-theme="light"] body #masthead,
+html[data-theme="light"] body .masthead {
+  background-color: #ffffff !important;
+  border-bottom: 3px solid #18453B !important;
+}
 
-/* 5. Sidebar Fix */
-html[data-theme="dark"] .author__urls-wrapper a,
-html[data-theme="dark"] .author__urls-wrapper i {
+/* 4. Link Visibility Fix */
+html[data-theme="dark"] a { color: #A394F0 !important; }
+html[data-theme="light"] a { color: #3D2C8D !important; }
+
+/* 5. Sidebar Fix for Dark Mode */
+html[data-theme="dark"] .sidebar .author__urls-wrapper a,
+html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   color: #ffffff !important;
 }
