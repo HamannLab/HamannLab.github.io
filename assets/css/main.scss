@@ -42,32 +42,65 @@
     "vendor/font-awesome/brands"
 ;
 /* =========================
-   Hamann Lab color overrides
+   Hamann Lab Design System
    ========================= */
 
 :root{
   --hamann-purple: #3D2C8D;
   --hamann-purple-dark: #2C1F66;
   --msu-green: #18453B;
-  --msu-green-dark: #0F2E27;
+  --text-dark: #222;
+  --bg-light: #ffffff;
 }
 
-/* Links */
-a { color: var(--hamann-purple) !important; }
-a:hover, a:focus { color: var(--hamann-purple-dark) !important; }
-
-/* Buttons */
-.btn, .btn--primary{
-  background-color: var(--hamann-purple) !important;
-  border-color: var(--hamann-purple) !important;
-}
-.btn:hover, .btn:focus, .btn--primary:hover, .btn--primary:focus{
-  background-color: var(--hamann-purple-dark) !important;
-  border-color: var(--hamann-purple-dark) !important;
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
 }
 
-/* Subtle MSU green accent line under header */
+a {
+  color: var(--hamann-purple);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hamann-purple-dark);
+  text-decoration: underline;
+}
+
 .masthead {
-  border-bottom: 3px solid var(--msu-green) !important;
+  background-color: white;
+  border-bottom: 3px solid var(--msu-green);
 }
-/* rebuild */
+
+.masthead a,
+.greedy-nav a {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.masthead a:hover,
+.greedy-nav a:hover {
+  color: var(--hamann-purple);
+}
+
+.btn,
+.btn--primary {
+  background-color: var(--hamann-purple);
+  border-color: var(--hamann-purple);
+  color: white;
+}
+
+.btn:hover,
+.btn--primary:hover {
+  background-color: var(--hamann-purple-dark);
+  border-color: var(--hamann-purple-dark);
+}
+
+.page__title {
+  color: var(--hamann-purple);
+}
+
+.sidebar {
+  background-color: #fafafa;
+}
