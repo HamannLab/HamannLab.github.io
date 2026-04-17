@@ -1,44 +1,41 @@
 /* ==========================================================================
-   HAMANN LAB - ULTIMATE DARK MODE FIX
+   HAMANN LAB - DIRECT OVERRIDE DARK THEME
    ========================================================================== */
 
 /* 1. Define Brand Colors */
 $msu-green:     #18453B;
-$hamann-purple: #3D2C8D; /* The Lab Purple */
-$dark-charcoal: #121212;
+$hamann-purple: #3D2C8D;
 $pure-white:    #ffffff;
-$light-purple:  #A394F0; /* Readable purple for links */
+$light-purple:  #A394F0;
 
-/* 2. Apply to Dark Theme */
 html[data-theme="dark"] {
-    /* Main Background */
-    --global-bg-color:                  #{$dark-charcoal};
-    --global-text-color:                #{$pure-white};
-    
-    /* THE BANNER (Masthead) - Force Dark Purple background */
-    --global-masthead-bg-color:         #{$hamann-purple}; 
-    --global-masthead-link-color:       #{$pure-white}; /* "Talks, Teaching" labels */
-    --global-masthead-link-color-hover: #{$light-purple};
+    /* Main Body */
+    --global-bg-color: #121212;
+    --global-text-color: #{$pure-white};
+    --global-link-color: #{$light-purple};
+    --global-border-color: #{$msu-green};
 
-    /* THE SIDEBAR (Profile Links) */
-    --global-sidebar-bg-color:          #1a1a1a;
-    --global-sidebar-link-color:        #{$pure-white}; /* "PubMed, ORCID" links */
-    --global-sidebar-link-color-hover:  #{$light-purple};
+    /* THE BANNER (Force Background to Purple) */
+    .masthead {
+        background-color: #{$hamann-purple} !important;
+        border-bottom: 2px solid #{$msu-green} !important;
+    }
 
-    /* Footer & Borders */
-    --global-footer-bg-color:           #0a0a0a;
-    --global-border-color:              #{$msu-green};
-    
-    /* Body Links */
-    --global-link-color:                #{$light-purple};
-    --global-link-color-hover:          #{$pure-white};
-}
+    /* THE NAV LINKS (Force "Talks, Teaching" to White) */
+    .masthead__menu-item a, 
+    .site-title {
+        color: #{$pure-white} !important;
+        opacity: 1 !important;
+    }
 
-/* 3. Extra Force (Just in case the theme is stubborn) */
-html[data-theme="dark"] .masthead {
-    background-color: #3D2C8D !important;
-}
+    /* SIDEBAR LINKS (Force PubMed, ORCID to White) */
+    .author__urls-wrapper a,
+    .author__urls-wrapper span {
+        color: #{$pure-white} !important;
+    }
 
-html[data-theme="dark"] .sidebar .author__urls-wrapper a {
-    color: #ffffff !important;
+    /* HOVER STATE (Turn Green when mousing over) */
+    .masthead__menu-item a:hover {
+        color: #{$msu-green} !important;
+    }
 }
