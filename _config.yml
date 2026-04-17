@@ -24,7 +24,7 @@ repository               : "HamannLab/HamannLab.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Hamann Lab"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "East Lansing, MI"
