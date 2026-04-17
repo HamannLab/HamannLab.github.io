@@ -42,65 +42,13 @@
     "vendor/font-awesome/brands"
 ;
 /* =========================
-   Hamann Lab Design System
+   Hamann Lab Minimal Test
    ========================= */
 
-:root{
-  --hamann-purple: #3D2C8D;
-  --hamann-purple-dark: #2C1F66;
-  --msu-green: #18453B;
-  --text-dark: #222;
-  --bg-light: #ffffff;
-}
-
-body {
-  background-color: var(--bg-light);
-  color: var(--text-dark);
-}
-
 a {
-  color: var(--hamann-purple);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--hamann-purple-dark);
-  text-decoration: underline;
+  color: #3D2C8D !important;
 }
 
 .masthead {
-  background-color: white;
-  border-bottom: 3px solid var(--msu-green);
-}
-
-.masthead a,
-.greedy-nav a {
-  color: var(--text-dark);
-  font-weight: 500;
-}
-
-.masthead a:hover,
-.greedy-nav a:hover {
-  color: var(--hamann-purple);
-}
-
-.btn,
-.btn--primary {
-  background-color: var(--hamann-purple);
-  border-color: var(--hamann-purple);
-  color: white;
-}
-
-.btn:hover,
-.btn--primary:hover {
-  background-color: var(--hamann-purple-dark);
-  border-color: var(--hamann-purple-dark);
-}
-
-.page__title {
-  color: var(--hamann-purple);
-}
-
-.sidebar {
-  background-color: #fafafa;
+  border-bottom: 3px solid #18453B !important;
 }
