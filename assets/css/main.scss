@@ -1,89 +1,66 @@
 ---
+# Front matter is required for Jekyll to process this file
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
- * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
-
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+@import "vendor/breakpoint/breakpoint";
+@import "themes";
+@import "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
+@import "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
+@import "include/mixins";
+@import "vendor/susy/susy";
+@import "layout/reset";
+@import "layout/base";
+@import "include/utilities";
+@import "layout/tables";
+@import "layout/buttons";
+@import "layout/notices";
+@import "layout/masthead";
+@import "layout/navigation";
+@import "layout/footer";
+@import "syntax";
+@import "layout/forms";
+@import "layout/page";
+@import "layout/archive";
+@import "layout/sidebar";
+@import "layout/json_cv";
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
 
 /* ==========================================================================
-   HAMANN LAB - ABSOLUTE OVERRIDE
+   HAMANN LAB - EMERGENCY OVERRIDE
    ========================================================================== */
 
+/* DARK MODE FIX */
 html[data-theme="dark"] {
-    /* 1. Force Banner Background (Kill the Light Band) */
-    .masthead, 
-    .masthead__inner-wrap, 
-    #site-nav {
+    .masthead, .masthead__inner-wrap, #site-nav {
         background-color: #3D2C8D !important;
         background-image: none !important;
         border: none !important;
         box-shadow: none !important;
     }
 
-    /* 2. Force Banner Text and Title to White */
-    .site-title, 
-    .site-title a,
-    .masthead__menu-item a {
+    .site-title, .site-title a, .masthead__menu-item a {
         color: #ffffff !important;
         border-bottom: none !important;
     }
 
-    /* 3. Force Sidebar Links (PubMed, etc) to White */
-    .author__urls-wrapper a,
-    .author__urls-wrapper i,
-    .author__urls-wrapper span {
+    .author__urls-wrapper a, .author__urls-wrapper i, .author__urls-wrapper span {
         color: #ffffff !important;
     }
 
-    /* 4. Force Body Links to Light Purple (Readable on Black) */
     .initial-content a {
         color: #A394F0 !important;
     }
 
-    /* 5. The MSU Green Line at the bottom of the purple banner */
     .masthead {
         border-bottom: 4px solid #18453B !important;
     }
 }
 
-/* Light Mode Link Fix (Hamann Purple) */
-html[data-theme="light"] .initial-content a {
-    color: #3D2C8D !important;
+/* LIGHT MODE FIX */
+html[data-theme="light"] {
+    .initial-content a {
+        color: #3D2C8D !important;
+    }
 }
