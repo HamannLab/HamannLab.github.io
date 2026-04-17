@@ -1,41 +1,39 @@
 /* ==========================================================================
-   HAMANN LAB - DIRECT OVERRIDE DARK THEME
+   HAMANN LAB - DARK MODE DEFINITIVE FIX
    ========================================================================== */
 
-/* 1. Define Brand Colors */
 $msu-green:     #18453B;
 $hamann-purple: #3D2C8D;
 $pure-white:    #ffffff;
 $light-purple:  #A394F0;
 
 html[data-theme="dark"] {
-    /* Main Body */
-    --global-bg-color: #121212;
-    --global-text-color: #{$pure-white};
-    --global-link-color: #{$light-purple};
-    --global-border-color: #{$msu-green};
+    /* Main Background & Text */
+    --global-bg-color:                  #121212;
+    --global-text-color:                #{$pure-white};
+    --global-link-color:                #{$light-purple};
+    --global-border-color:              #{$msu-green};
 
     /* THE BANNER (Force Background to Purple) */
     .masthead {
-        background-color: #{$hamann-purple} !important;
-        border-bottom: 2px solid #{$msu-green} !important;
+        background-color: #3D2C8D !important;
+        border-bottom: 2px solid #18453B !important;
     }
 
-    /* THE NAV LINKS (Force "Talks, Teaching" to White) */
+    /* NAVIGATION LINKS (Force "Talks", etc. to White) */
     .masthead__menu-item a, 
-    .site-title {
-        color: #{$pure-white} !important;
-        opacity: 1 !important;
+    .site-title,
+    .site-title a {
+        color: #ffffff !important;
     }
 
-    /* SIDEBAR LINKS (Force PubMed, ORCID to White) */
+    /* SIDEBAR LINKS (Force Icons/Text to White) */
     .author__urls-wrapper a,
-    .author__urls-wrapper span {
-        color: #{$pure-white} !important;
+    .author__urls-wrapper span,
+    .author__urls-wrapper i {
+        color: #ffffff !important;
     }
 
-    /* HOVER STATE (Turn Green when mousing over) */
-    .masthead__menu-item a:hover {
-        color: #{$msu-green} !important;
-    }
+    /* Footer */
+    --global-footer-bg-color:           #0a0a0a;
 }
