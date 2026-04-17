@@ -1,5 +1,5 @@
 /* ==========================================================================
-   HAMANN LAB - DARK MODE DEFINITIVE BANNER FIX
+   HAMANN LAB - DARK MODE TOTAL FIX
    ========================================================================== */
 
 $msu-green:     #18453B;
@@ -8,40 +8,37 @@ $pure-white:    #ffffff;
 $light-purple:  #A394F0;
 
 html[data-theme="dark"] {
-    --global-bg-color:                  #121212;
-    --global-text-color:                #{$pure-white};
-    --global-link-color:                #{$light-purple};
-    --global-border-color:              #{$msu-green};
+    --global-bg-color: #121212;
+    --global-text-color: #ffffff;
+    --global-link-color: #{$light-purple};
 
-    /* 1. TARGET ALL BANNER LAYERS */
+    /* 1. Kill the Light Band & Force Purple Banner */
     .masthead, 
     .masthead__inner-wrap, 
-    .site-nav,
-    .initial-content {
-        background-color: #3D2C8D !important; /* Solid Hamann Purple */
+    .site-nav {
+        background-color: #3D2C8D !important;
         border: none !important;
         box-shadow: none !important;
-        background-image: none !important; /* Removes any gradients */
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
-    /* 2. FIX THE "LIGHT BAND" (Usually the wrapper padding) */
-    .masthead__inner-wrap {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
-    /* 3. NAVIGATION TEXT */
-    .masthead__menu-item a, 
-    .site-title,
-    .site-title a {
+    /* 2. Remove the white line and fix Title/Nav text */
+    .site-title, 
+    .site-title a,
+    .masthead__menu-item a {
         color: #ffffff !important;
-        background-color: transparent !important; /* Prevents gray boxes around text */
-        border-bottom: none !important; /* Removes that white line under the name */
+        border-bottom: none !important;
+        text-decoration: none !important;
     }
 
-    /* 4. SIDEBAR ICONS & TEXT */
+    /* 3. MSU Green Accent Line (Optional - put at bottom of banner) */
+    .masthead {
+        border-bottom: 4px solid #18453B !important;
+    }
+
+    /* 4. Sidebar Icons Fix */
     .author__urls-wrapper a,
-    .author__urls-wrapper span,
     .author__urls-wrapper i {
         color: #ffffff !important;
     }
