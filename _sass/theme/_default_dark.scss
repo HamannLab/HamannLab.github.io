@@ -1,5 +1,5 @@
 /* ==========================================================================
-   HAMANN LAB - DARK MODE "NO STREAKS" FIX
+   HAMANN LAB - DARK MODE DEFINITIVE BANNER FIX
    ========================================================================== */
 
 $msu-green:     #18453B;
@@ -8,35 +8,38 @@ $pure-white:    #ffffff;
 $light-purple:  #A394F0;
 
 html[data-theme="dark"] {
-    /* Main Background & Text */
     --global-bg-color:                  #121212;
     --global-text-color:                #{$pure-white};
     --global-link-color:                #{$light-purple};
     --global-border-color:              #{$msu-green};
 
-    /* THE BANNER (Targeting all layers to remove the light band) */
+    /* 1. TARGET ALL BANNER LAYERS */
     .masthead, 
     .masthead__inner-wrap, 
-    #site-nav {
-        background-color: #3D2C8D !important;
+    .site-nav,
+    .initial-content {
+        background-color: #3D2C8D !important; /* Solid Hamann Purple */
         border: none !important;
         box-shadow: none !important;
+        background-image: none !important; /* Removes any gradients */
     }
 
-    /* Force the very top margin/border to disappear */
-    .masthead {
-        border-top: 0 !important;
-        margin-top: 0 !important;
+    /* 2. FIX THE "LIGHT BAND" (Usually the wrapper padding) */
+    .masthead__inner-wrap {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
-    /* NAVIGATION LINKS (White text) */
+    /* 3. NAVIGATION TEXT */
     .masthead__menu-item a, 
     .site-title,
     .site-title a {
         color: #ffffff !important;
+        background-color: transparent !important; /* Prevents gray boxes around text */
+        border-bottom: none !important; /* Removes that white line under the name */
     }
 
-    /* SIDEBAR LINKS (White Icons) */
+    /* 4. SIDEBAR ICONS & TEXT */
     .author__urls-wrapper a,
     .author__urls-wrapper span,
     .author__urls-wrapper i {
