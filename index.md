@@ -19,16 +19,14 @@ Our research focuses on how electrons move through molecular systems and how tho
 
 ---
 
-## Research Areas
+### ⚡ Electrochemistry
+We use electrochemical methods extensively to probe reaction reaction mechanisms, kinetics, and thermodynamics.
 
-### ⚡ Electrochemistry & Reaction Mechanisms
-We use electrochemical techniques to probe reaction pathways, kinetics, and thermodynamics. Our goal is to develop a molecular-level understanding of how electron transfer drives chemical transformations.
+### <img src="/images/flask-cycle.png" style="height: 20px; vertical-align: middle;"> Catalysis
+We develop new homogeneous and heterogeneous catalysts targeted to nitrogen (ammonia) chemistry, guided by mechanistic analysis.
 
-### 🔬 Catalysis & Redox Chemistry
-We study catalytic systems where redox processes control reactivity, with an emphasis on identifying key intermediates and mechanistic steps.
-
-### 🔋 Energy-Relevant Chemical Systems
-Our work connects fundamental electrochemistry to problems in energy conversion, where controlling electron flow is essential for efficient chemical transformations.
+### ☀️ Energy
+We develop and study new systems for solar to electricity and fuel conversion reactions.
 
 ---
 
