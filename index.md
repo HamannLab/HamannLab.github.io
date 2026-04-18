@@ -5,8 +5,6 @@ permalink: /
 author_profile: true
 ---
 
-## Hamann Lab
-
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/images/Group.jpg" alt="Hamann Lab Group" style="max-width: 100%; border-radius: 8px;">
 </div>
