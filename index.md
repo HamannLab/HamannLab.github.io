@@ -13,10 +13,7 @@ author_profile: true
 
 ### Electrochemistry | Catalysis | Ammonia | Energy
 
-We use electrochemistry to understand and control chemical reactivity.
-
-Our research focuses on how electrons move through molecular systems and how those processes govern catalytic reactions relevant to energy conversion and storage. By combining electrochemical methods with synthesis and spectroscopy, we aim to uncover fundamental relationships between structure, reactivity, and mechanism.
-
+Our interdisciplinary research interests are focused on solving problems related to energy conversions and energy storage. See below for areas of current focus and our research page. 
 ---
 
 ### ⚡ Electrochemistry
