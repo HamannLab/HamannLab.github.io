@@ -22,10 +22,10 @@ Our research focuses on how electrons move through molecular systems and how tho
 ### ⚡ Electrochemistry
 We use electrochemical methods extensively to probe reaction reaction mechanisms, kinetics, and thermodynamics.
 
-### <img src="/images/flask-cycle.png" style="height: 32px; vertical-align: middle;"> Catalysis
+### <img src="/images/flask-cycle.png" style="height: 38px; vertical-align: middle;"> Catalysis
 We develop new homogeneous and heterogeneous catalysts targeted to nitrogen (ammonia) chemistry, guided by mechanistic analysis.
 
-### <img src="/images/nh3-icon.png" style="height: 32px; vertical-align: middle;"> Eurefstics (Ammonia Storage)
+### <img src="/images/nh3-icon.png" style="height: 38px; vertical-align: middle;"> Eurefstics (Ammonia Storage)
 We are developing novel liquid-phase ammonia storage systems (“eurefstics”) that enable ambient-condition storage and release of ammonia and hydrogen. 
 
 These studies connect fundamental chemistry with emerging strategies for chemical energy storage and transport.
