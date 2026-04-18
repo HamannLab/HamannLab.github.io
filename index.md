@@ -9,9 +9,14 @@ author_profile: true
   <img src="/images/Group.jpg" alt="Hamann Lab Group" style="max-width: 100%; border-radius: 8px;">
 </div>
 
-### Electrochemistry | Catalysis | Ammonia | Energy
+<p style="font-size: 1.1em; font-weight: 500; text-align: center; margin-bottom: 0.5em;">
+  Electrochemistry | Catalysis | Ammonia | Energy
+</p>
 
-Our interdisciplinary research interests are focused on solving problems related to energy conversions and energy storage. See below for areas of current focus and our research page. 
+<p style="text-align: center; max-width: 850px; margin: 0 auto 1.5em auto;">
+  Our interdisciplinary research interests are focused on solving problems related to energy conversion and energy storage. See below for areas of current focus and our research page.
+</p>
+
 ---
 
 ### ⚡ Electrochemistry
