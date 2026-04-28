@@ -18,7 +18,7 @@ baseurl: ""
 repository: "HamannLab/HamannLab.github.io"
 
 # Site Author
-author:
+author: 
   avatar: "profile.png"
   name: "Hamann Lab"
   
