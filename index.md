@@ -20,7 +20,7 @@ author_profile: true
 ---
 
 ### ⚡ Electrochemistry
-We use electrochemical methods extensively to probe reaction reaction mechanisms, kinetics, and thermodynamics.
+We use electrochemical methods extensively to probe reaction mechanisms, kinetics, and thermodynamics.
 
 ### <img src="/images/flask-cycle.png" style="height: 38px; filter: contrast(1.2); vertical-align: middle;"> Catalysis
 We develop new homogeneous and heterogeneous catalysts targeted to nitrogen (ammonia) chemistry, guided by mechanistic analysis.
