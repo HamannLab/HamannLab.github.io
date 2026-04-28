@@ -9,13 +9,12 @@
 html[data-theme="dark"] body #masthead,
 html[data-theme="dark"] body .masthead,
 html[data-theme="dark"] body .masthead__inner-wrap {
-  background-color: #3D2C8D !important;
-  background: #3D2C8D !important; /* Secondary force */
+  background-color: #000000 !important;
+  background: #000000 !important;
   background-image: none !important;
   border-bottom: 3px solid #18453B !important;
   box-shadow: none !important;
 }
-
 /* Force Nav Text to White */
 html[data-theme="dark"] .masthead__menu-item a,
 html[data-theme="dark"] .site-title,
