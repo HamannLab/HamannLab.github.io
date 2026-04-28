@@ -25,7 +25,7 @@ author:
   employer: "Michigan State University"
   uri: "https://hamannlab.github.io/"
   email: "hamann@msu.edu"
-  
+
   # Academic websites
   academia: ""
   arxiv: ""
@@ -35,7 +35,7 @@ author:
   researchgate: ""
 
   # Repositories and software development
-   github: "academicpages"
+  github: "HamannLab"
 
   # Social media
 
