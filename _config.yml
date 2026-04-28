@@ -21,7 +21,7 @@ repository: "HamannLab/HamannLab.github.io"
 author:
   name: "Hamann Lab"
   location: "578 S Shaw Lane, East Lansing, MI 48824"
-  avatar: "/images/profile.png"
+  avatar: "profile.png"
   employer: "Michigan State University"
   uri: "https://hamannlab.github.io/"
   email: "hamann@msu.edu"
