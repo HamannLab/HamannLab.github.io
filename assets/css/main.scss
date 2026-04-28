@@ -34,7 +34,7 @@
 /* DARK MODE FIX */
 html[data-theme="dark"] {
     .masthead, .masthead__inner-wrap, #site-nav {
-        background-color: #3D2C8D !important;
+        background-color: #000000 !important;
         background-image: none !important;
         border: none !important;
         box-shadow: none !important;
@@ -54,7 +54,7 @@ html[data-theme="dark"] {
     }
 
     .masthead {
-        border-bottom: 4px solid #18453B !important;
+        border-bottom: 1px solid #18453B !important;
     }
 }
 
