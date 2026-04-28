@@ -19,7 +19,7 @@ repository: "HamannLab/HamannLab.github.io"
 
 # Site Author
 author:
-  avatar: "profile.png"
+  avatar: "/images/profile.png"
   name: "Hamann Lab"
   location: |
     578 S Shaw Lane
