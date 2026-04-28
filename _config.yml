@@ -21,25 +21,20 @@ repository: "HamannLab/HamannLab.github.io"
 author:
   avatar: "profile.png"
   name: "Hamann Lab"
-  pronouns: ""
-  bio: "Short biography for the left-hand sidebar"
+  
   location: "East Lansing, MI"
   employer: "Michigan State University"
-  uri: ""
-  email: "msu@msu.edu"
+  uri: "https://hamannlab.github.io/"
+  email: "hamann@msu.edu"
 
   # Academic websites
   academia: ""
   arxiv: ""
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep: ""
-  impactstory: ""
-  orcid: "https://orcid.org/yourorcidurl"
+  googlescholar: "https://scholar.google.com/citations?user=KRBt0_AAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0001-6917-7494"
   semantic: ""
-  ssrn: ""
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate: ""
-  scopus: ""
+  IPCC: "https://www.ipcc.ch/"
   zotero: ""
 
   # Repositories and software development
@@ -51,32 +46,10 @@ author:
   stackoverflow: ""
 
   # Social media
-  artstation: ""
-  bluesky: "bsky.app"
-  facebook: ""
-  flickr: ""
-  foursquare: ""
-  goodreads: ""
-  google_plus: ""
-  keybase: ""
-  instagram: ""
-  lastfm: ""
-  linkedin: ""
-  mastodon: ""
-  medium: ""
-  pinterest: ""
-  soundcloud: ""
-  steam: ""
-  telegram: ""
-  tumblr: ""
-  twitter: ""
-  vine: ""
-  weibo: ""
-  wikipedia: ""
-  xing: ""
-  youtube: ""
-  zhihu: ""
 
+  linkedin: ""
+  wikipedia: ""
+ 
 # Publication Category
 publication_category:
   books:
