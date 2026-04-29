@@ -1,41 +1,31 @@
 {% include base_path %}
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="margin-bottom: 4em; clear: both;">
+<div class="list__item" style="margin-bottom: 50px;">
+  <article class="archive__item">
     
-    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0; margin-bottom: 20px; color: #3D2C8D; font-size: 1.2em; font-weight: bold; line-height: 1.4; border: none;">
-      {{ title }}
+    <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.2em; font-weight: bold; margin-bottom: 15px; border: none;">
+      {{ post.title }}
     </h2>
 
-    <div style="display: flex; flex-direction: row-reverse; align-items: flex-start; justify-content: flex-end; gap: 30px;">
-      
-      {% if post.teaser %}
-        <div class="archive__item-teaser" style="flex: 0 0 320px;">
-          <img src="{{ post.teaser | relative_url }}" alt="" style="width: 100%; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
-        </div>
-      {% endif %}
+    <table style="border: none; width: 100%; border-collapse: collapse;">
+      <tr>
+        <td style="border: none; padding: 0; vertical-align: top;">
+          {% if post.citation %}
+            <p style="margin-bottom: 20px; font-size: 1.0em; color: #333;">{{ post.citation }}</p>
+          {% endif %}
 
-      <div class="archive__item-content" itemprop="description" style="flex: 1;">
-        {% if post.citation %}
-          <p style="margin-bottom: 20px; font-size: 0.95em; color: #333; line-height: 1.6;">
-            {{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}
-          </p>
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 15px; font-size: 0.8em;">Link</a>
+          {% endif %}
+        </td>
+
+        {% if post.teaser %}
+        <td style="border: none; padding: 0 0 0 30px; vertical-align: top; width: 350px;">
+          <img src="{{ post.teaser | relative_url }}" style="width: 350px; border: 1px solid #ddd; border-radius: 4px;">
+        </td>
         {% endif %}
-
-        {% if post.paperurl %}
-          <p style="margin-top: 0;">
-            <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 6px 18px; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; font-weight: bold;">Link</a>
-          </p>
-        {% endif %}
-      </div>
-
-    </div>
+      </tr>
+    </table>
 
   </article>
 </div>
