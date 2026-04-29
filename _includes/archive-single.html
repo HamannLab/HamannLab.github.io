@@ -7,29 +7,25 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="overflow: auto; margin-bottom: 2em;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="overflow: auto; margin-bottom: 3em; border-bottom: 1px solid #f2f2f2; padding-bottom: 2em;">
     
     {% if post.teaser %}
-      <div class="archive__item-teaser" style="float: right; margin-left: 20px; width: 250px;">
-        <img src="{{ post.teaser | relative_url }}" alt="" style="width: 100%; border: 1px solid #eee;">
+      <div class="archive__item-teaser" style="float: right; margin-left: 30px; width: 400px;">
+        <img src="{{ post.teaser | relative_url }}" alt="" style="width: 100%; border: 1px solid #ddd; border-radius: 4px; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0; margin-bottom: 10px; color: #3D2C8D; font-size: 1.1em; font-weight: bold; line-height: 1.3;">
+      {{ title }}
     </h2>
 
     <div class="archive__item-content" itemprop="description">
       {% if post.citation %}
-        <p style="margin-bottom: 10px;">{{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        <p style="margin-bottom: 15px; font-size: 0.95em; color: #444;">{{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
 
       {% if post.paperurl %}
-        <p style="margin-top: 0;"><a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 10px; font-size: 0.8em;">Download Paper</a></p>
+        <p style="margin-top: 0;"><a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 6px 15px; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px;">Link</a></p>
       {% endif %}
     </div>
 
