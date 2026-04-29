@@ -1,31 +1,33 @@
 {% include base_path %}
 
-<div class="list__item" style="margin-bottom: 50px;">
+<div class="list__item" style="margin-bottom: 28px; padding-bottom: 24px; border-bottom: 1px solid #ddd;">
   <article class="archive__item">
-    
-    <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.2em; font-weight: bold; margin-bottom: 15px; border: none;">
-      {{ post.title }}
-    </h2>
 
-    <table style="border: none; width: 100%; border-collapse: collapse;">
-      <tr>
-        <td style="border: none; padding: 0; vertical-align: top;">
-          {% if post.citation %}
-            <p style="margin-bottom: 20px; font-size: 1.0em; color: #333;">{{ post.citation }}</p>
-          {% endif %}
+    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 24px; align-items: center;">
 
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 15px; font-size: 0.8em;">Link</a>
-          {% endif %}
-        </td>
+      <div>
+        <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.15em; line-height: 1.25; font-weight: bold; margin: 0 0 10px 0; border: none;">
+          {{ post.title }}
+        </h2>
 
-        {% if post.teaser %}
-        <td style="border: none; padding: 0 0 0 30px; vertical-align: top; width: 350px;">
-          <img src="{{ post.teaser | relative_url }}" style="width: 350px; border: 1px solid #ddd; border-radius: 4px;">
-        </td>
+        {% if post.citation %}
+          <p style="margin: 0 0 12px 0; font-size: 0.95em; line-height: 1.45; color: #333;">
+            {{ post.citation }}
+          </p>
         {% endif %}
-      </tr>
-    </table>
+
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 14px; font-size: 0.8em;">Link</a>
+        {% endif %}
+      </div>
+
+      {% if post.teaser %}
+        <div>
+          <img src="{{ post.teaser | relative_url }}" style="width: 100%; max-width: 240px; border: 1px solid #ddd; border-radius: 4px; background: white; padding: 4px;">
+        </div>
+      {% endif %}
+
+    </div>
 
   </article>
 </div>
