@@ -1,12 +1,12 @@
 {% include base_path %}
 
-<div class="list__item" style="margin-bottom: 28px; padding-bottom: 24px; border-bottom: 1px solid #ddd;">
+<div class="list__item" style="margin-bottom: 36px; padding-bottom: 28px; border-bottom: 1px solid #ddd;">
   <article class="archive__item">
 
-    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 24px; align-items: center;">
+    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 26px; align-items: start;">
 
       <div>
-        <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.15em; line-height: 1.25; font-weight: bold; margin: 0 0 10px 0; border: none;">
+        <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.05em; line-height: 1.25; font-weight: bold; margin: 0 0 10px 0; border: none;">
           {{ post.title }}
         </h2>
 
@@ -16,14 +16,20 @@
           </p>
         {% endif %}
 
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 14px; font-size: 0.8em;">Link</a>
-        {% endif %}
+        <div style="margin-top: 8px;">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 14px; font-size: 0.8em; margin-right: 6px;">Paper</a>
+          {% endif %}
+
+          {% if post.scholarurl %}
+            <a href="{{ post.scholarurl }}" class="btn btn--inverse" style="padding: 5px 14px; font-size: 0.8em;">Google Scholar</a>
+          {% endif %}
+        </div>
       </div>
 
       {% if post.teaser %}
         <div>
-          <img src="{{ post.teaser | relative_url }}" style="width: 100%; max-width: 240px; border: 1px solid #ddd; border-radius: 4px; background: white; padding: 4px;">
+          <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 260px; border: 1px solid #ddd; border-radius: 6px; background: white; padding: 6px;">
         </div>
       {% endif %}
 
