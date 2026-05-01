@@ -1,1 +1,26 @@
 
+<div class="pub-item">
+  <div class="pub-text">
+    <h2 class="pub-title">{{ post.title }}</h2>
+
+    {% if post.citation %}
+      <p class="pub-citation">{{ post.citation }}</p>
+    {% endif %}
+
+    <div class="pub-links">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" class="btn btn--primary">Paper</a>
+      {% endif %}
+
+      {% if post.scholarurl %}
+        <a href="{{ post.scholarurl }}" class="btn btn--inverse">Google Scholar</a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if post.teaser %}
+    <div class="pub-graphic">
+      <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}">
+    </div>
+  {% endif %}
+</div>
