@@ -1,35 +1,48 @@
 {% include base_path %}
 
-<div class="list__item" style="margin-bottom: 36px; padding-bottom: 28px; border-bottom: 1px solid #ddd;">
+{% assign citation_text = post.citation %}
+{% assign citation_text = citation_text | replace: "T. W. Hamann", "<strong>T. W. Hamann</strong>" %}
+{% assign citation_text = citation_text | replace: "T.W. Hamann", "<strong>T.W. Hamann</strong>" %}
+{% assign citation_text = citation_text | replace: "Hamann, T. W.", "<strong>Hamann, T. W.</strong>" %}
+{% assign citation_text = citation_text | replace: "Hamann, T.W.", "<strong>Hamann, T.W.</strong>" %}
+{% assign citation_text = citation_text | replace: "Hamann, T.W", "<strong>Hamann, T.W</strong>" %}
+
+<div class="list__item" style="margin-bottom: 30px; padding-bottom: 24px; border-bottom: 1px solid #ddd;">
   <article class="archive__item">
 
-    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 26px; align-items: start;">
+    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 28px; align-items: start;">
 
       <div>
-        <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.05em; line-height: 1.25; font-weight: bold; margin: 0 0 10px 0; border: none;">
+        {% if post.cv_number %}
+          <div style="font-size: 0.78em; color: #777; margin-bottom: 4px; font-weight: 600;">
+            #{{ post.cv_number }}
+          </div>
+        {% endif %}
+
+        <h2 class="archive__item-title" style="color: #3D2C8D; font-size: 1.02em; line-height: 1.25; font-weight: bold; margin: 0 0 9px 0; border: none;">
           {{ post.title }}
         </h2>
 
         {% if post.citation %}
-          <p style="margin: 0 0 12px 0; font-size: 0.95em; line-height: 1.45; color: #333;">
-            {{ post.citation }}
+          <p style="margin: 0 0 10px 0; font-size: 0.92em; line-height: 1.42; color: #333;">
+            {{ citation_text }}
           </p>
         {% endif %}
 
-        <div style="margin-top: 8px;">
+        <div style="margin-top: 7px;">
           {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 14px; font-size: 0.8em; margin-right: 6px;">Paper</a>
+            <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 5px 14px; font-size: 0.78em; margin-right: 6px;">Article</a>
           {% endif %}
 
           {% if post.scholarurl %}
-            <a href="{{ post.scholarurl }}" class="btn btn--inverse" style="padding: 5px 14px; font-size: 0.8em;">Google Scholar</a>
+            <a href="{{ post.scholarurl }}" class="btn btn--inverse" style="padding: 5px 14px; font-size: 0.78em;">Google Scholar</a>
           {% endif %}
         </div>
       </div>
 
       {% if post.teaser %}
         <div>
-          <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 260px; border: 1px solid #ddd; border-radius: 6px; background: white; padding: 6px;">
+          <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 6px; background: white; padding: 6px;">
         </div>
       {% endif %}
 
