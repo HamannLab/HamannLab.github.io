@@ -1,4 +1,3 @@
-
 ---
 title: "Academic Family Tree"
 permalink: /academic-family-tree/
