@@ -78,18 +78,18 @@ html[data-theme="light"] {
 
 .publication-entry {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 200px;
-  gap: 22px;
+  grid-template-columns: minmax(0, 1fr) 250px;
+  gap: 26px;
   align-items: start;
 }
 
 .publication-teaser {
-  width: 200px;
+  width: 250px;
 }
 
 .publication-teaser img {
-  width: 200px;
-  height: 145px;
+  width: 250px;
+  height: 175px;
   object-fit: contain;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -114,8 +114,8 @@ html[data-theme="light"] {
 
   .publication-teaser img {
     width: 100%;
-    max-width: 220px;
-    height: 155px;
+    max-width: 240px;
+    height: 170px;
     object-fit: contain;
     display: block;
     margin: 0 auto 4px auto;
