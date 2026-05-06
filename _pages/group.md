@@ -7,8 +7,6 @@ author_profile: true
 
 ## Current Group Members
 
-Add your lab members here.
-
 ### Graduate Students
 Oluwafemi Abubakar
 2021-present
