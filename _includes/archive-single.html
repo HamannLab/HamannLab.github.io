@@ -10,7 +10,7 @@
 <div class="list__item" style="margin-bottom: 30px; padding-bottom: 24px; border-bottom: 1px solid #ddd;">
   <article class="archive__item">
 
-    <div style="display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 28px; align-items: start;">
+    <div class="publication-entry">
 
       <div>
         {% if post.cv_number %}
@@ -41,8 +41,8 @@
       </div>
 
       {% if post.teaser %}
-        <div>
-          <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 6px; background: white; padding: 6px;">
+        <div class="publication-teaser">
+          <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}">
         </div>
       {% endif %}
 
