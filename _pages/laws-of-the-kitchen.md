@@ -5,7 +5,11 @@ layout: single
 author_profile: true
 ---
 
-Laws of The Kitchen* (i.e. Lab)
+Below is the text I copied from a “Laws of the Kitchen” sign I once saw from a professional restaurant kitchen; these are the expectations and habits I hope we cultivate in the lab.#
+
+
+Laws of The Kitchen* 
+
 You are now at the point of your life when you are developing your professional reputation. You are doing so at the top tier of restaurants in New York City - make it count. Only your work ethic will speak for you, not past chefs or friends.
 
 You must love to do this for a living - no question. You must love to come early or stay late if it is necessary to get the job done. You must love to practice only the best, most perfect techniques in order to produce a product you are proud of. Your end product is a direct reflection of how much love and respect you have for yourself and your work. 
@@ -24,3 +28,7 @@ All cooks must think ahead and anticipate. Having your stations set up completel
 
 
 *These rules were posted in the kitchen of Cafe Boulud in New York, during Andrew Carmellini's tenure as a chef de cuisine. 
+
+
+
+#Original source note: The text above from “Laws of the Kitchen” is used here for educational commentary on research-group culture; if you are the rights holder and would like this text removed or credited differently, please contact me.
