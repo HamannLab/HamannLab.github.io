@@ -12,19 +12,16 @@ main:
     url: /publications/
 
   - title: "Research"
-    url: /research/    
+    url: /research/
 
-  - title: "Teaching"
-    url: /teaching/    
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  - title: "Group"
+    url: /group/
+
+  - title: "Alumni"
+    url: /alumni/
+
   - title: "CV"
-    url: /assets/CV2026.pdf
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /cv/
+
+  - title: "Laws of the Kitchen"
+    url: /laws-of-the-kitchen/
