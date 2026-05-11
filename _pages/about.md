@@ -1,49 +1,56 @@
 ## Hamann Lab
 
-<div style="text-align: center; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 24px;">
   <img src="/images/group.jpg" alt="Hamann Lab Group" style="max-width: 100%; border-radius: 8px;">
 </div>
 
-### Electrochemistry | Catalysis | Energy
+<div class="homepage-intro">
+  <h3>Electrochemistry | Catalysis | Ammonia | Energy</h3>
 
-We use electrochemistry to understand and control chemical reactivity.
+  <p>
+    Our interdisciplinary research focuses on understanding and controlling electron-transfer chemistry
+    in molecular and materials systems. We use electrochemical methods, synthesis, spectroscopy, and
+    quantitative analysis to uncover mechanisms relevant to catalysis, ammonia chemistry, and energy conversion.
+  </p>
+</div>
 
-Our research focuses on how electrons move through molecular systems and how those processes govern catalytic reactions relevant to energy conversion and storage. By combining electrochemical methods with synthesis and spectroscopy, we aim to uncover fundamental relationships between structure, reactivity, and mechanism.
+<div class="research-highlight">
+  <div class="research-highlight-inner">
+    <h2>Research Focus</h2>
 
----
+    <div class="research-highlight-grid">
 
-## Research Areas
+      <div class="research-item">
+        <h3><span class="research-icon">⚡</span>Electrochemistry</h3>
+        <p>We use electrochemical methods to probe reaction pathways, kinetics, and thermodynamics.</p>
+      </div>
 
-### ⚡ Electrochemistry & Reaction Mechanisms
-We use electrochemical techniques to probe reaction pathways, kinetics, and thermodynamics. Our goal is to develop a molecular-level understanding of how electron transfer drives chemical transformations.
+      <div class="research-item">
+        <h3><span class="research-icon">🔬</span>Catalysis</h3>
+        <p>We develop and study homogeneous and heterogeneous catalysts, guided by mechanistic analysis.</p>
+      </div>
 
-### 🔬 Catalysis & Redox Chemistry
-We study catalytic systems where redox processes control reactivity, with an emphasis on identifying key intermediates and mechanistic steps.
+      <div class="research-item">
+        <h3><span class="research-icon">🧪</span>Ammonia Chemistry</h3>
+        <p>We investigate ammonia oxidation, storage, and utilization as part of a broader effort in sustainable nitrogen chemistry.</p>
+      </div>
 
-### 🔋 Energy-Relevant Chemical Systems
-Our work connects fundamental electrochemistry to problems in energy conversion, where controlling electron flow is essential for efficient chemical transformations.
+      <div class="research-item">
+        <h3><span class="research-icon">☀️</span>Energy</h3>
+        <p>We study systems for solar-to-electricity and fuel-conversion reactions, with an emphasis on controlling electron flow.</p>
+      </div>
 
----
-
-## Why This Matters
-
-Electrochemical methods provide a direct way to study and control chemical reactivity. By understanding how electron transfer governs catalytic processes, we aim to develop new insights that enable more efficient and selective chemical transformations.
-
----
+    </div>
+  </div>
+</div>
 
 ## Join the Lab
 
 We are always interested in motivated undergraduate, graduate, and postdoctoral researchers.
 
-Students in the group gain experience in:
-- Electrochemistry and reaction kinetics  
-- Catalysis and mechanistic analysis  
-- Inorganic synthesis  
-- Data analysis and quantitative modeling  
+Students in the group gain experience in electrochemistry, catalysis, inorganic synthesis, spectroscopy, reaction kinetics, and quantitative data analysis.
 
-If you're interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
-
----
+If you are interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
 
 ## Get in Touch
 
