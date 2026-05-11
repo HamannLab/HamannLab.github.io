@@ -1,3 +1,10 @@
+---
+title: "Hamann Lab"
+permalink: /
+layout: single
+author_profile: true
+---
+
 ## Hamann Lab
 
 <div style="text-align: center; margin-bottom: 24px;">
