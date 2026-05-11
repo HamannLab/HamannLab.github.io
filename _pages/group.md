@@ -28,12 +28,15 @@ author_profile: true
 }
 
 .person-card img {
-  width: 135px;
-  height: 135px;
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center center;
   border-radius: 50%;
   flex-shrink: 0;
   background: #f2f2f2;
+  color: transparent;
 }
 
 .person-info h3 {
