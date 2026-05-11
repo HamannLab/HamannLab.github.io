@@ -7,36 +7,175 @@ author_profile: true
 
 ## Current Group Members
 
+<style>
+.people-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.person-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #18453b;
+}
+
+.person-card img {
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: #f2f2f2;
+}
+
+.person-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  color: #3d2c8d;
+}
+
+.person-info p {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.person-info .role {
+  font-weight: 600;
+  color: #18453b;
+}
+
+.person-info .dates {
+  font-style: italic;
+  color: #555;
+}
+
+.person-info a {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .person-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .person-card img {
+    width: 150px;
+    height: 150px;
+  }
+}
+</style>
+
 ### Graduate Students
-Oluwafemi Abubakar
-2021-present
-BS: University of Ilorin, Nigeria
 
-Xiaoyin Zhang 
-2021-present
-BS: Boston College
+<div class="people-grid">
 
-Michael Adesanya
-MSU, 2023-present
-BS: 
+  <div class="person-card">
+    <img src="/images/people/oluwafemi-abubakar.jpg" alt="Oluwafemi Abubakar">
+    <div class="person-info">
+      <h3>Oluwafemi Abubakar</h3>
+      <p class="role">Graduate Student</p>
+      <p class="dates">2021–present</p>
+      <p><strong>BS:</strong> University of Ilorin, Nigeria</p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
 
-Avit Patel
-MSU, 2023-present
-BS: 
+  <div class="person-card">
+    <img src="/images/people/xiaoyin-zhang.jpg" alt="Xiaoyin Zhang">
+    <div class="person-info">
+      <h3>Xiaoyin Zhang</h3>
+      <p class="role">Graduate Student</p>
+      <p class="dates">2021–present</p>
+      <p><strong>BS:</strong> Boston College</p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
 
-Wyatt Mitchell
-2024-present
-BS: University of Massachusetts, Amherst
+  <div class="person-card">
+    <img src="/images/people/michael-adesanya.jpg" alt="Michael Adesanya">
+    <div class="person-info">
+      <h3>Michael Adesanya</h3>
+      <p class="role">Graduate Student</p>
+      <p class="dates">2023–present</p>
+      <p><strong>BS:</strong> </p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
 
-Najia Nijhum 
-2025-present
-BS: 
+  <div class="person-card">
+    <img src="/images/people/avit-patel.jpg" alt="Avit Patel">
+    <div class="person-info">
+      <h3>Avit Patel</h3>
+      <p class="role">Graduate Student</p>
+      <p class="dates">2023–present</p>
+      <p><strong>BS:</strong> </p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="/images/people/wyatt-mitchell.jpg" alt="Wyatt Mitchell">
+    <div class="person-info">
+      <h3>Wyatt Mitchell</h3>
+      <p class="role">Graduate Student</p>
+      <p class="dates">2024–present</p>
+      <p><strong>BS:</strong> University of Massachusetts, Amherst</p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="/images/people/najia-nijhum.jpg" alt="Najia Nijhum">
+    <div class="person-info">
+      <h3>Najia Nijhum</h3>
+      <p class="role">Graduate Student</p>
+      <p class="dates">2025–present</p>
+      <p><strong>BS:</strong> </p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
+
+</div>
 
 ### Postdocs
-Mitrali Biswas
-PhD: IIT Bombay, 2025
-MS: IIEST Shibpur, 2019
-BS: University of Calcutta
+
+<div class="people-grid">
+
+  <div class="person-card">
+    <img src="/images/people/mitrali-biswas.jpg" alt="Mitrali Biswas">
+    <div class="person-info">
+      <h3>Mitrali Biswas</h3>
+      <p class="role">Postdoctoral Researcher</p>
+      <p><strong>PhD:</strong> IIT Bombay, 2025</p>
+      <p><strong>MS:</strong> IIEST Shibpur, 2019</p>
+      <p><strong>BS:</strong> University of Calcutta</p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
+
+</div>
 
 ### Undergraduate Researchers
-Tehan Dharmawardane
+
+<div class="people-grid">
+
+  <div class="person-card">
+    <img src="/images/people/tehan-dharmawardane.jpg" alt="Tehan Dharmawardane">
+    <div class="person-info">
+      <h3>Tehan Dharmawardane</h3>
+      <p class="role">Undergraduate Researcher</p>
+      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+    </div>
+  </div>
+
+</div>
