@@ -85,12 +85,18 @@ author_profile: true
     <img src="/images/people/tom-hamann.jpg" alt="Tom Hamann">
     <div class="person-info">
       <h3>Tom Hamann</h3>
-      <p class="role">Professor of Chemistry</p>
-      <p>
-        Short bio text goes here. For example: The Hamann Lab uses electrochemistry,
-        synthesis, spectroscopy, and quantitative analysis to study catalysis,
-        ammonia chemistry, and energy-relevant chemical transformations.
-      </p>
+      <p class="role">James L. Dye Professor of Chemistry</p>
+
+      <p><strong>BA:</strong> [University of Texas], [1996]</p>
+      <p><strong>MS:</strong> [University of Massachusetts, Boston], [2000]</p>
+      <p><strong>PhD:</strong> [California Institute of Technology], [2006]</p>
+      <p><strong>Postdoc:</strong> [Northwestern / Hupp], [2006-2008]</p>
+      <p><strong>Assistant Professor:</strong> Michigan State University, [2008-2013]</p>
+      <p><strong>Associate Professor:</strong> Michigan State University, [2013-2018]</p>
+      <p><strong>Professor:</strong> Michigan State University, [2018-present]</p>
+      <p><strong>James L. Dye Professor:</strong> Michigan State University, [2014-present]</p>
+      <p><strong>Associate Editor:</strong> [ACS Applied Materials and Interfaces], [2017-present]</p>
+
       <p><a href="/assets/CV2026.pdf" target="_blank" rel="noopener">CV</a></p>
     </div>
   </div>
