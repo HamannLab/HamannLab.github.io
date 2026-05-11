@@ -132,3 +132,174 @@ html[data-theme="light"] {
     margin-bottom: 6px;
   }
 }
+.homepage-intro {
+  text-align: center;
+  max-width: 850px;
+  margin: 1.5rem auto 2rem auto;
+}
+
+.homepage-intro h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.homepage-intro p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.research-highlight {
+  position: relative;
+  margin: 2.5rem 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(8, 8, 12, 0.55), rgba(8, 8, 12, 0.72)),
+    url("/images/background.png");
+  background-size: cover;
+  background-position: center right;
+  color: white;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+.research-highlight-inner {
+  padding: 2.25rem 2rem;
+}
+
+.research-highlight h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 1.9rem;
+}
+
+.research-highlight-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.research-item {
+  background: rgba(255, 255, 255, 0.09);
+  border-left: 4px solid #18453b;
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  backdrop-filter: blur(2px);
+}
+
+.research-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.research-item p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.research-icon {
+  margin-right: 0.45rem;
+}
+
+@media screen and (min-width: 900px) {
+  .research-highlight-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .research-highlight-inner {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .homepage-intro {
+    text-align: left;
+  }
+}.homepage-intro {
+  text-align: center;
+  max-width: 850px;
+  margin: 1.5rem auto 2rem auto;
+}
+
+.homepage-intro h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.homepage-intro p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.research-highlight {
+  position: relative;
+  margin: 2.5rem 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(8, 8, 12, 0.55), rgba(8, 8, 12, 0.72)),
+    url("/images/background.png");
+  background-size: cover;
+  background-position: center right;
+  color: white;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+.research-highlight-inner {
+  padding: 2.25rem 2rem;
+}
+
+.research-highlight h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 1.9rem;
+}
+
+.research-highlight-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.research-item {
+  background: rgba(255, 255, 255, 0.09);
+  border-left: 4px solid #18453b;
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  backdrop-filter: blur(2px);
+}
+
+.research-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.research-item p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.research-icon {
+  margin-right: 0.45rem;
+}
+
+@media screen and (min-width: 900px) {
+  .research-highlight-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .research-highlight-inner {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .homepage-intro {
+    text-align: left;
+  }
+}
