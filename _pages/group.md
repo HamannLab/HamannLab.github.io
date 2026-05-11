@@ -18,9 +18,9 @@ author_profile: true
 
 .person-card {
   display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
-  padding: 1.25rem;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.4rem 1.6rem;
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
@@ -28,12 +28,11 @@ author_profile: true
 }
 
 .person-card img {
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1 / 1;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   object-position: center center;
-  border-radius: 50%;
+  border-radius: 14px;
   flex-shrink: 0;
   background: #f2f2f2;
   color: transparent;
@@ -64,7 +63,7 @@ author_profile: true
   font-weight: 600;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .person-card {
     flex-direction: column;
     align-items: center;
@@ -72,11 +71,31 @@ author_profile: true
   }
 
   .person-card img {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
   }
 }
 </style>
+
+### Principal Investigator
+
+<div class="people-grid">
+
+  <div class="person-card">
+    <img src="/images/people/tom-hamann.jpg" alt="Tom Hamann">
+    <div class="person-info">
+      <h3>Tom Hamann</h3>
+      <p class="role">Professor of Chemistry</p>
+      <p>
+        Short bio text goes here. For example: The Hamann Lab uses electrochemistry,
+        synthesis, spectroscopy, and quantitative analysis to study catalysis,
+        ammonia chemistry, and energy-relevant chemical transformations.
+      </p>
+      <p><a href="/assets/CV2026.pdf" target="_blank" rel="noopener">CV</a></p>
+    </div>
+  </div>
+
+</div>
 
 ### Graduate Students
 
@@ -110,7 +129,7 @@ author_profile: true
       <h3>Michael Adesanya</h3>
       <p class="role">Graduate Student</p>
       <p class="dates">2023–present</p>
-      <p><strong>BS:</strong> </p>
+      <p><strong>BS:</strong></p>
       <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
     </div>
   </div>
@@ -121,7 +140,7 @@ author_profile: true
       <h3>Avit Patel</h3>
       <p class="role">Graduate Student</p>
       <p class="dates">2023–present</p>
-      <p><strong>BS:</strong> </p>
+      <p><strong>BS:</strong></p>
       <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
     </div>
   </div>
@@ -143,7 +162,7 @@ author_profile: true
       <h3>Najia Nijhum</h3>
       <p class="role">Graduate Student</p>
       <p class="dates">2025–present</p>
-      <p><strong>BS:</strong> </p>
+      <p><strong>BS:</strong></p>
       <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
     </div>
   </div>
