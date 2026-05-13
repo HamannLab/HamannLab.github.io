@@ -86,12 +86,12 @@ author_profile: true
     <div class="person-info">
       <h3>Tom Hamann</h3>
       <p class="role">James L. Dye Professor of Chemistry</p>
-
-      <p><strong>BA:</strong> University of Texas, 1996</p>
-      <p><strong>MS:</strong> [University of Massachusetts, Boston], [2000]</p>
-      <p><strong>PhD:</strong> [California Institute of Technology], [2006]</p>
+     
       <p><strong>Postdoc:</strong> [Northwestern / Hupp], [2006-2008]</p>
-
+      <p><strong>PhD:</strong> [California Institute of Technology], [2006]</p>
+      <p><strong>MS:</strong> [University of Massachusetts, Boston], [2000]</p>
+      <p><strong>BA:</strong> University of Texas, 1996</p>
+     
       <p><a href="/assets/CV2026.pdf" target="_blank" rel="noopener">CV</a></p>
     </div>
   </div>
@@ -127,10 +127,10 @@ author_profile: true
     <img src="/images/people/oluwafemi-abubakar.jpg" alt="Oluwafemi Abubakar">
     <div class="person-info">
       <h3>Oluwafemi Abubakar</h3>
-      <p class="role">Graduate Student</p>
+      <p class="role">5th Year PhD Candidate</p>
       <p class="dates">2021–present</p>
-      <p><strong>BS:</strong> University of Ilorin, Nigeria</p>
-      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+      <p><strong>BS:</strong> Industrial Chemistry, University of Ilorin, Nigeria</p>
+      <p><a href="[#](https://www.linkedin.com/in/oluwafemiabu/)" target="_blank" rel="noopener">LinkedIn</a></p>
     </div>
   </div>
 
