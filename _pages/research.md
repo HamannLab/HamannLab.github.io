@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-## Research
-
 The Hamann Lab studies electrochemistry, catalysis, ammonia chemistry, and solar energy conversion. Our research combines synthesis, electrochemical methods, spectroscopy, and quantitative analysis to understand and control chemical reactivity.
 
 <div class="research-split thrust-eurefstics">
