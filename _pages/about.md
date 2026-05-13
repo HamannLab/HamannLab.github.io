@@ -53,15 +53,13 @@ author_profile: true
 
 ## Join the Lab
 
-We are always interested in motivated undergraduate, graduate, and postdoctoral researchers.
+We are always interested in working with motivated undergraduate, graduate, and postdoctoral researchers.
 
-Students in the group gain experience in electrochemistry, catalysis, inorganic synthesis, spectroscopy, reaction kinetics, and quantitative data analysis.
-
-If you are interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
 
 ## Get in Touch
 
-📍 East Lansing, MI  
-🏫 Michigan State University  
+📍 [Chemistry Building, Michigan State University](https://www.google.com/maps/search/?api=1&query=Chemistry+Building+Michigan+State+University)  
+🏫 [Department of Chemistry, Michigan State University](https://chemistry.msu.edu/)  
 
-For inquiries about research opportunities or collaborations, please contact us by email.
+We welcome inquiries about research opportunities, collaborations, and joining the group.  
+Please contact Prof. Hamann by email at [hamann@msu.edu](mailto:hamann@msu.edu).
