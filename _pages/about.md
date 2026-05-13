@@ -55,15 +55,20 @@ author_profile: true
 
 We are always interested in working with motivated undergraduate, graduate, and postdoctoral researchers.
 
-
 ## Get in Touch
-<h2>Get in Touch</h2>
-
-<p>📍 <a href="https://www.google.com/maps/search/Chemistry+Building+Michigan+State+University">Chemistry Building, Michigan State University</a><br>
-🏫 <a href="https://chemistry.msu.edu/">Department of Chemistry, Michigan State University</a></p>
 
 <p>
-  We welcome inquiries about research opportunities, collaborations, and joining the group.<br>
+  📍 <a href="https://www.google.com/maps/search/Chemistry+Building+Michigan+State+University" target="_blank" rel="noopener noreferrer">
+    Chemistry Building, Michigan State University
+  </a><br>
+
+  🏫 <a href="https://chemistry.msu.edu/" target="_blank" rel="noopener noreferrer">
+    Department of Chemistry, Michigan State University
+  </a>
+</p>
+
+<p>
+  We welcome inquiries about research opportunities, collaborations, and joining the group.
   Please contact Prof. Hamann by email at
   <a href="mailto:hamann@msu.edu">hamann@msu.edu</a>.
 </p>
