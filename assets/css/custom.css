@@ -50,6 +50,7 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   background-size: cover;
   background-position: center;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(24, 69, 59, 0.20);
 }
 
 .research-thrust-overlay {
@@ -60,9 +61,9 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   padding: 2.5rem;
   background: linear-gradient(
     90deg,
-    rgba(8, 8, 12, 0.88) 0%,
-    rgba(8, 8, 12, 0.70) 48%,
-    rgba(8, 8, 12, 0.25) 100%
+    rgba(12, 38, 32, 0.88) 0%,
+    rgba(24, 69, 59, 0.72) 45%,
+    rgba(61, 44, 141, 0.22) 100%
   );
   color: white;
 }
@@ -77,23 +78,11 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 }
 
 .research-thrust p {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(255, 255, 255, 0.96);
   font-size: 1.08rem;
   line-height: 1.65;
   max-width: 720px;
   margin-bottom: 0;
-}
-
-.thrust-eurefstics {
-  background-image: url("/images/research/eurefstics.png");
-}
-
-.thrust-ammonia {
-  background-image: url("/images/research/ammonia-electrocatalysis.png");
-}
-
-.thrust-solar {
-  background-image: url("/images/research/solar-energy.png");
 }
 
 @media screen and (max-width: 700px) {
@@ -104,7 +93,7 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 
   .research-thrust-overlay {
     padding: 1.5rem;
-    background: rgba(8, 8, 12, 0.80);
+    background: rgba(16, 52, 44, 0.82);
   }
 
   .research-thrust h2 {
