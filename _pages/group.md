@@ -164,7 +164,7 @@ author_profile: true
       <p class="dates">2023–present</p>
       <p><strong>BS:Maharaja Sayajirao University of Baroda</strong></p>
       <p><strong>MSc: Indian Institute of Technology, Jodhpura</strong></p>
-      <p><a href="https://www.linkedin.com/in/avit-bhogilal-patel-071273209/" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+      <p><a href="https://www.linkedin.com/in/avit-bhogilal-patel-071273209/" target="_blank" rel="noopener">LinkedIn</a></p>
     </div>
   </div>
 
