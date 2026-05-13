@@ -45,9 +45,9 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 
 .research-split {
   display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  min-height: 340px;
-  margin: 2.5rem 0;
+  grid-template-columns: 0.82fr 1.18fr;
+  min-height: 295px;
+  margin: 2rem 0;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
@@ -55,7 +55,7 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 }
 
 .research-text {
-  padding: 2.25rem 2rem;
+  padding: 1.8rem 1.6rem 1.8rem 1.9rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,24 +67,26 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 
 .research-text h2 {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
   color: white;
-  font-size: 2rem;
-  line-height: 1.15;
+  font-size: 1.75rem;
+  line-height: 1.12;
   border-bottom: none;
+  max-width: 360px;
 }
 
 .research-text p {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.96);
-  font-size: 1.04rem;
-  line-height: 1.65;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  max-width: 390px;
 }
 
 .research-visual {
-  min-height: 340px;
+  min-height: 295px;
   background-repeat: no-repeat;
-  background-size: 82% auto;
+  background-size: 94% auto;
   background-position: center center;
   position: relative;
 }
@@ -102,10 +104,10 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   background: linear-gradient(
     90deg,
     rgba(61, 44, 141, 1.0) 0%,
-    rgba(61, 44, 141, 0.94) 32%,
-    rgba(61, 44, 141, 0.68) 52%,
-    rgba(61, 44, 141, 0.28) 72%,
-    rgba(61, 44, 141, 0.10) 100%
+    rgba(61, 44, 141, 0.95) 28%,
+    rgba(61, 44, 141, 0.70) 45%,
+    rgba(61, 44, 141, 0.30) 63%,
+    rgba(61, 44, 141, 0.08) 100%
   );
 }
 
@@ -118,10 +120,10 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   background: linear-gradient(
     90deg,
     rgba(24, 69, 59, 1.0) 0%,
-    rgba(24, 69, 59, 0.94) 32%,
-    rgba(24, 69, 59, 0.68) 52%,
-    rgba(24, 69, 59, 0.28) 72%,
-    rgba(24, 69, 59, 0.10) 100%
+    rgba(24, 69, 59, 0.95) 28%,
+    rgba(24, 69, 59, 0.70) 45%,
+    rgba(24, 69, 59, 0.30) 63%,
+    rgba(24, 69, 59, 0.08) 100%
   );
 }
 
@@ -134,10 +136,10 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   background: linear-gradient(
     90deg,
     rgba(168, 92, 24, 1.0) 0%,
-    rgba(191, 124, 34, 0.92) 32%,
-    rgba(218, 157, 54, 0.62) 52%,
-    rgba(238, 184, 76, 0.26) 72%,
-    rgba(238, 184, 76, 0.10) 100%
+    rgba(191, 124, 34, 0.94) 28%,
+    rgba(218, 157, 54, 0.68) 45%,
+    rgba(238, 184, 76, 0.30) 63%,
+    rgba(238, 184, 76, 0.08) 100%
   );
 }
 
@@ -149,25 +151,28 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 @media screen and (max-width: 850px) {
   .research-split {
     grid-template-columns: 1fr;
+    min-height: auto;
   }
 
   .research-text {
     order: 2;
-    padding: 1.5rem;
+    padding: 1.4rem;
   }
 
   .research-visual {
     order: 1;
-    min-height: 240px;
+    min-height: 230px;
     background-size: contain;
     background-position: center center;
   }
 
   .research-text h2 {
-    font-size: 1.55rem;
+    font-size: 1.45rem;
+    max-width: none;
   }
 
   .research-text p {
-    font-size: 1rem;
+    font-size: 0.96rem;
+    max-width: none;
   }
 }
