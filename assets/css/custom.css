@@ -39,28 +39,30 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper a,
 html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   color: #ffffff !important;
 }
-/* Split research-thrust cards */
+/* ============================================================
+   Research Page: Split Research Thrust Cards
+   ============================================================ */
 
 .research-split {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 0.95fr 1.05fr;
   min-height: 340px;
   margin: 2.5rem 0;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
-  background: #ffffff;
   border: 1px solid rgba(24, 69, 59, 0.12);
 }
 
 .research-text {
-  padding: 2.25rem 2rem 2.25rem 2rem;
+  padding: 2.25rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
   position: relative;
   z-index: 2;
+  background: transparent;
 }
 
 .research-text h2 {
@@ -82,17 +84,17 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 .research-visual {
   min-height: 340px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 82% auto;
   background-position: center center;
   position: relative;
 }
 
-/* This makes the color wash continue gently over the image */
 .research-visual::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
+  background: transparent;
 }
 
 /* Eurefstics: purple */
@@ -100,85 +102,50 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   background: linear-gradient(
     90deg,
     rgba(61, 44, 141, 1.0) 0%,
-    rgba(61, 44, 141, 0.90) 36%,
-    rgba(61, 44, 141, 0.45) 58%,
-    rgba(61, 44, 141, 0.12) 100%
+    rgba(61, 44, 141, 0.94) 32%,
+    rgba(61, 44, 141, 0.68) 52%,
+    rgba(61, 44, 141, 0.28) 72%,
+    rgba(61, 44, 141, 0.10) 100%
   );
-}
-
-.thrust-eurefstics .research-text {
-  background: transparent;
 }
 
 .thrust-eurefstics .research-visual {
   background-image: url("/images/research/eurefstics.png");
 }
 
-.thrust-eurefstics .research-visual::before {
-  background: linear-gradient(
-    90deg,
-    rgba(61, 44, 141, 0.55) 0%,
-    rgba(61, 44, 141, 0.20) 42%,
-    rgba(61, 44, 141, 0.06) 100%
-  );
-}
-
-/* Electrocatalysis / catalysis: green */
+/* Electrocatalysis / Catalysis: MSU green */
 .thrust-ammonia {
   background: linear-gradient(
     90deg,
     rgba(24, 69, 59, 1.0) 0%,
-    rgba(24, 69, 59, 0.90) 36%,
-    rgba(24, 69, 59, 0.45) 58%,
-    rgba(24, 69, 59, 0.12) 100%
+    rgba(24, 69, 59, 0.94) 32%,
+    rgba(24, 69, 59, 0.68) 52%,
+    rgba(24, 69, 59, 0.28) 72%,
+    rgba(24, 69, 59, 0.10) 100%
   );
-}
-
-.thrust-ammonia .research-text {
-  background: transparent;
 }
 
 .thrust-ammonia .research-visual {
   background-image: url("/images/research/ammonia-electrocatalysis.png");
 }
 
-.thrust-ammonia .research-visual::before {
-  background: linear-gradient(
-    90deg,
-    rgba(24, 69, 59, 0.55) 0%,
-    rgba(24, 69, 59, 0.20) 42%,
-    rgba(24, 69, 59, 0.06) 100%
-  );
-}
-
-/* Solar energy: orange/gold */
+/* Solar energy: orange / gold */
 .thrust-solar {
   background: linear-gradient(
     90deg,
     rgba(168, 92, 24, 1.0) 0%,
-    rgba(191, 124, 34, 0.90) 36%,
-    rgba(218, 157, 54, 0.45) 58%,
-    rgba(238, 184, 76, 0.14) 100%
+    rgba(191, 124, 34, 0.92) 32%,
+    rgba(218, 157, 54, 0.62) 52%,
+    rgba(238, 184, 76, 0.26) 72%,
+    rgba(238, 184, 76, 0.10) 100%
   );
-}
-
-.thrust-solar .research-text {
-  background: transparent;
 }
 
 .thrust-solar .research-visual {
   background-image: url("/images/research/solar-energy.png");
 }
 
-.thrust-solar .research-visual::before {
-  background: linear-gradient(
-    90deg,
-    rgba(191, 124, 34, 0.50) 0%,
-    rgba(218, 157, 54, 0.18) 42%,
-    rgba(238, 184, 76, 0.05) 100%
-  );
-}
-
+/* Mobile layout */
 @media screen and (max-width: 850px) {
   .research-split {
     grid-template-columns: 1fr;
