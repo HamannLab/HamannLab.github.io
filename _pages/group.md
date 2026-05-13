@@ -109,7 +109,7 @@ author_profile: true
       <p><strong>PhD:</strong> IIT Bombay, India 2025</p>
       <p><strong>MS:</strong> IIEST Shibpur, 2019</p>
       <p><strong>BS:</strong> Bethune College, University of Calcutta</p>
-      <p><a href="#" target="_blank" rel="[noopener](https://www.linkedin.com/in/mitrali-biswas-087427182/)">LinkedIn</a></p>
+      <p><a href="#" target="_blank" rel="https://www.linkedin.com/in/mitrali-biswas-087427182/">LinkedIn</a></p>
     </div>
   </div>
 
