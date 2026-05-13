@@ -39,68 +39,135 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper a,
 html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   color: #ffffff !important;
 }
-/* Research page visual thrust panels */
+/* Split research-thrust cards */
 
-.research-thrust {
-  position: relative;
-  min-height: 360px;
+.research-split {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  min-height: 320px;
   margin: 2.5rem 0;
   border-radius: 18px;
   overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(24, 69, 59, 0.20);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  border: 1px solid rgba(24, 69, 59, 0.12);
 }
 
-.research-thrust-overlay {
-  min-height: 360px;
+.research-text {
+  padding: 2.25rem 2.25rem 2.25rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2.5rem;
   background: linear-gradient(
     90deg,
-    rgba(12, 38, 32, 0.88) 0%,
-    rgba(24, 69, 59, 0.72) 45%,
-    rgba(61, 44, 141, 0.22) 100%
+    rgba(24, 69, 59, 0.92) 0%,
+    rgba(46, 91, 80, 0.86) 72%,
+    rgba(46, 91, 80, 0.58) 100%
   );
   color: white;
+  position: relative;
+  z-index: 2;
 }
 
-.research-thrust h2 {
-  color: white;
-  font-size: 2rem;
+.research-text h2 {
   margin-top: 0;
   margin-bottom: 1rem;
-  max-width: 700px;
+  color: white;
+  font-size: 2rem;
+  line-height: 1.15;
   border-bottom: none;
 }
 
-.research-thrust p {
-  color: rgba(255, 255, 255, 0.96);
-  font-size: 1.08rem;
-  line-height: 1.65;
-  max-width: 720px;
+.research-text p {
   margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.06rem;
+  line-height: 1.7;
 }
 
-@media screen and (max-width: 700px) {
-  .research-thrust,
-  .research-thrust-overlay {
-    min-height: 300px;
+/* Right-side image panel */
+.research-visual {
+  min-height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Soft fade where image meets text */
+.research-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(46, 91, 80, 0.30) 0%,
+    rgba(46, 91, 80, 0.08) 18%,
+    rgba(0, 0, 0, 0.00) 45%
+  );
+}
+
+/* Individual images */
+.thrust-eurefstics .research-visual {
+  background-image: url("/images/research/eurefstics.png");
+}
+
+.thrust-ammonia .research-visual {
+  background-image: url("/images/research/ammonia-electrocatalysis.png");
+}
+
+.thrust-solar .research-visual {
+  background-image: url("/images/research/solar-energy.png");
+}
+
+/* Optional: slightly different text-panel tones for each */
+.thrust-eurefstics .research-text {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 69, 59, 0.92) 0%,
+    rgba(54, 107, 94, 0.86) 72%,
+    rgba(54, 107, 94, 0.58) 100%
+  );
+}
+
+.thrust-ammonia .research-text {
+  background: linear-gradient(
+    90deg,
+    rgba(38, 38, 76, 0.92) 0%,
+    rgba(61, 44, 141, 0.84) 72%,
+    rgba(61, 44, 141, 0.56) 100%
+  );
+}
+
+.thrust-solar .research-text {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 69, 59, 0.90) 0%,
+    rgba(96, 101, 62, 0.78) 72%,
+    rgba(208, 164, 72, 0.48) 100%
+  );
+}
+
+/* Mobile */
+@media screen and (max-width: 850px) {
+  .research-split {
+    grid-template-columns: 1fr;
   }
 
-  .research-thrust-overlay {
+  .research-text {
+    order: 2;
     padding: 1.5rem;
-    background: rgba(16, 52, 44, 0.82);
   }
 
-  .research-thrust h2 {
+  .research-visual {
+    order: 1;
+    min-height: 220px;
+  }
+
+  .research-text h2 {
     font-size: 1.55rem;
   }
 
-  .research-thrust p {
+  .research-text p {
     font-size: 1rem;
   }
 }
