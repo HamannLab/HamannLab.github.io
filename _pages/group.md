@@ -97,6 +97,23 @@ author_profile: true
   </div>
 
 </div>
+### Postdocs
+
+<div class="people-grid">
+
+  <div class="person-card">
+    <img src="/images/people/mitrali-biswas.jpg" alt="Mitrali Biswas">
+    <div class="person-info">
+      <h3>Mitrali Biswas</h3>
+      <p class="role">Postdoctoral Researcher</p>
+      <p><strong>PhD:</strong> IIT Bombay, India 2025</p>
+      <p><strong>MS:</strong> IIEST Shibpur, 2019</p>
+      <p><strong>BS:</strong> Bethune College, University of Calcutta</p>
+      <p><a href="#" target="_blank" rel="[noopener](https://www.linkedin.com/in/mitrali-biswas-087427182/)">LinkedIn</a></p>
+    </div>
+  </div>
+
+</div>
 
 ### Graduate Students
 
@@ -164,24 +181,6 @@ author_profile: true
       <p class="role">Graduate Student</p>
       <p class="dates">2025–present</p>
       <p><strong>BS:</strong></p>
-      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
-    </div>
-  </div>
-
-</div>
-
-### Postdocs
-
-<div class="people-grid">
-
-  <div class="person-card">
-    <img src="/images/people/mitrali-biswas.jpg" alt="Mitrali Biswas">
-    <div class="person-info">
-      <h3>Mitrali Biswas</h3>
-      <p class="role">Postdoctoral Researcher</p>
-      <p><strong>PhD:</strong> IIT Bombay, 2025</p>
-      <p><strong>MS:</strong> IIEST Shibpur, 2019</p>
-      <p><strong>BS:</strong> University of Calcutta</p>
       <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
     </div>
   </div>
