@@ -39,3 +39,79 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper a,
 html[data-theme="dark"] .sidebar .author__urls-wrapper i {
   color: #ffffff !important;
 }
+/* Research page visual thrust panels */
+
+.research-thrust {
+  position: relative;
+  min-height: 360px;
+  margin: 2.5rem 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+.research-thrust-overlay {
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 12, 0.88) 0%,
+    rgba(8, 8, 12, 0.70) 48%,
+    rgba(8, 8, 12, 0.25) 100%
+  );
+  color: white;
+}
+
+.research-thrust h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  max-width: 700px;
+  border-bottom: none;
+}
+
+.research-thrust p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.08rem;
+  line-height: 1.65;
+  max-width: 720px;
+  margin-bottom: 0;
+}
+
+.thrust-eurefstics {
+  background-image: url("/images/research/eurefstics.png");
+}
+
+.thrust-ammonia {
+  background-image: url("/images/research/ammonia-electrocatalysis.png");
+}
+
+.thrust-solar {
+  background-image: url("/images/research/solar-energy.png");
+}
+
+@media screen and (max-width: 700px) {
+  .research-thrust,
+  .research-thrust-overlay {
+    min-height: 300px;
+  }
+
+  .research-thrust-overlay {
+    padding: 1.5rem;
+    background: rgba(8, 8, 12, 0.80);
+  }
+
+  .research-thrust h2 {
+    font-size: 1.55rem;
+  }
+
+  .research-thrust p {
+    font-size: 1rem;
+  }
+}
