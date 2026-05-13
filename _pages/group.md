@@ -160,10 +160,11 @@ author_profile: true
     <img src="/images/people/avit-patel.jpg" alt="Avit Patel">
     <div class="person-info">
       <h3>Avit Patel</h3>
-      <p class="role">Graduate Student</p>
+      <p class="role">3rd Year PhD Candidate</p>
       <p class="dates">2023–present</p>
-      <p><strong>BS:</strong></p>
-      <p><a href="#" target="_blank" rel="noopener">LinkedIn / Website</a></p>
+      <p><strong>BS:Maharaja Sayajirao University of Baroda</strong></p>
+      <p><strong>MSc: Indian Institute of Technology, Jodhpura</strong></p>
+      <p><a href="https://www.linkedin.com/in/avit-bhogilal-patel-071273209/" target="_blank" rel="noopener">LinkedIn / Website</a></p>
     </div>
   </div>
 
