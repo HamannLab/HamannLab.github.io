@@ -43,8 +43,8 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 
 .research-split {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  min-height: 320px;
+  grid-template-columns: 1.05fr 0.95fr;
+  min-height: 340px;
   margin: 2.5rem 0;
   border-radius: 18px;
   overflow: hidden;
@@ -54,16 +54,10 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 }
 
 .research-text {
-  padding: 2.25rem 2.25rem 2.25rem 2rem;
+  padding: 2.25rem 2rem 2.25rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(
-    90deg,
-    rgba(24, 69, 59, 0.92) 0%,
-    rgba(46, 91, 80, 0.86) 72%,
-    rgba(46, 91, 80, 0.58) 100%
-  );
   color: white;
   position: relative;
   z-index: 2;
@@ -80,74 +74,111 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 
 .research-text p {
   margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.95);
-  font-size: 1.06rem;
-  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.96);
+  font-size: 1.04rem;
+  line-height: 1.65;
 }
 
-/* Right-side image panel */
 .research-visual {
-  min-height: 320px;
-  background-size: cover;
-  background-position: center;
+  min-height: 340px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
   position: relative;
 }
 
-/* Soft fade where image meets text */
+/* This makes the color wash continue gently over the image */
 .research-visual::before {
   content: "";
   position: absolute;
   inset: 0;
+  pointer-events: none;
+}
+
+/* Eurefstics: purple */
+.thrust-eurefstics {
   background: linear-gradient(
     90deg,
-    rgba(46, 91, 80, 0.30) 0%,
-    rgba(46, 91, 80, 0.08) 18%,
-    rgba(0, 0, 0, 0.00) 45%
+    rgba(61, 44, 141, 1.0) 0%,
+    rgba(61, 44, 141, 0.90) 36%,
+    rgba(61, 44, 141, 0.45) 58%,
+    rgba(61, 44, 141, 0.12) 100%
   );
 }
 
-/* Individual images */
+.thrust-eurefstics .research-text {
+  background: transparent;
+}
+
 .thrust-eurefstics .research-visual {
   background-image: url("/images/research/eurefstics.png");
+}
+
+.thrust-eurefstics .research-visual::before {
+  background: linear-gradient(
+    90deg,
+    rgba(61, 44, 141, 0.55) 0%,
+    rgba(61, 44, 141, 0.20) 42%,
+    rgba(61, 44, 141, 0.06) 100%
+  );
+}
+
+/* Electrocatalysis / catalysis: green */
+.thrust-ammonia {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 69, 59, 1.0) 0%,
+    rgba(24, 69, 59, 0.90) 36%,
+    rgba(24, 69, 59, 0.45) 58%,
+    rgba(24, 69, 59, 0.12) 100%
+  );
+}
+
+.thrust-ammonia .research-text {
+  background: transparent;
 }
 
 .thrust-ammonia .research-visual {
   background-image: url("/images/research/ammonia-electrocatalysis.png");
 }
 
-.thrust-solar .research-visual {
-  background-image: url("/images/research/solar-energy.png");
-}
-
-/* Optional: slightly different text-panel tones for each */
-.thrust-eurefstics .research-text {
+.thrust-ammonia .research-visual::before {
   background: linear-gradient(
     90deg,
-    rgba(24, 69, 59, 0.92) 0%,
-    rgba(54, 107, 94, 0.86) 72%,
-    rgba(54, 107, 94, 0.58) 100%
+    rgba(24, 69, 59, 0.55) 0%,
+    rgba(24, 69, 59, 0.20) 42%,
+    rgba(24, 69, 59, 0.06) 100%
   );
 }
 
-.thrust-ammonia .research-text {
+/* Solar energy: orange/gold */
+.thrust-solar {
   background: linear-gradient(
     90deg,
-    rgba(38, 38, 76, 0.92) 0%,
-    rgba(61, 44, 141, 0.84) 72%,
-    rgba(61, 44, 141, 0.56) 100%
+    rgba(168, 92, 24, 1.0) 0%,
+    rgba(191, 124, 34, 0.90) 36%,
+    rgba(218, 157, 54, 0.45) 58%,
+    rgba(238, 184, 76, 0.14) 100%
   );
 }
 
 .thrust-solar .research-text {
+  background: transparent;
+}
+
+.thrust-solar .research-visual {
+  background-image: url("/images/research/solar-energy.png");
+}
+
+.thrust-solar .research-visual::before {
   background: linear-gradient(
     90deg,
-    rgba(24, 69, 59, 0.90) 0%,
-    rgba(96, 101, 62, 0.78) 72%,
-    rgba(208, 164, 72, 0.48) 100%
+    rgba(191, 124, 34, 0.50) 0%,
+    rgba(218, 157, 54, 0.18) 42%,
+    rgba(238, 184, 76, 0.05) 100%
   );
 }
 
-/* Mobile */
 @media screen and (max-width: 850px) {
   .research-split {
     grid-template-columns: 1fr;
@@ -160,7 +191,9 @@ html[data-theme="dark"] .sidebar .author__urls-wrapper i {
 
   .research-visual {
     order: 1;
-    min-height: 220px;
+    min-height: 240px;
+    background-size: contain;
+    background-position: center center;
   }
 
   .research-text h2 {
