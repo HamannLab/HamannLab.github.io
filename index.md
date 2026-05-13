@@ -5,47 +5,52 @@ permalink: /
 author_profile: true
 ---
 
-<div style="text-align: center; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 24px;">
   <img src="/images/Group.jpg" alt="Hamann Lab Group" style="max-width: 100%; border-radius: 8px;">
 </div>
 
-<p style="font-size: 1.1em; font-weight: 500; text-align: center; margin-bottom: 0.5em;">
-  Electrochemistry | Catalysis | Ammonia | Energy
-</p>
+<div class="homepage-intro">
+  <h3>Eurefstics | Ammonia Electrocatalysis | Solar Energy</h3>
 
-<p style="text-align: center; max-width: 850px; margin: 0 auto 1.5em auto;">
-  Our interdisciplinary research interests are focused on solving problems related to energy conversion and energy storage. See below for areas of current focus and our research page.
-</p>
+  <p>
+    Our interdisciplinary research focuses on understanding and controlling electron-transfer chemistry
+    in molecular and materials systems. We use electrochemical methods, synthesis, spectroscopy, and
+    quantitative analysis to uncover mechanisms relevant to catalysis, ammonia chemistry, and energy conversion.
+  </p>
+</div>
 
----
+<div class="home-research-cards">
 
-### ⚡ Electrochemistry
-We use electrochemical methods extensively to probe reaction mechanisms, kinetics, and thermodynamics.
+  <a class="home-research-card home-card-eurefstics" href="/research/">
+    <div class="home-card-content">
+      <h3>Eurefstics</h3>
+      <p>Liquid-phase ammonia storage and delivery systems for energy applications.</p>
+    </div>
+  </a>
 
-### <img src="/images/flask-cycle.png" style="height: 38px; filter: contrast(1.2); vertical-align: middle;"> Catalysis
-We develop new homogeneous and heterogeneous catalysts targeted to nitrogen (ammonia) chemistry, guided by mechanistic analysis.
+  <a class="home-research-card home-card-ammonia" href="/research/">
+    <div class="home-card-content">
+      <h3>Electrocatalysis of Ammonia</h3>
+      <p>Mechanistic studies of ammonia oxidation and nitrogen-based electrocatalysis.</p>
+    </div>
+  </a>
 
-### <img src="/images/nh3-icon.png" style="height: 38px; vertical-align: middle;"> Eurefstics (Ammonia Storage)
-We are developing novel liquid-phase ammonia storage systems (“eurefstics”) that enable ambient-condition storage and release of ammonia and hydrogen. 
+  <a class="home-research-card home-card-solar" href="/research/">
+    <div class="home-card-content">
+      <h3>Solar Energy Conversion</h3>
+      <p>Molecular systems for light-driven charge transfer and dye-sensitized solar cells.</p>
+    </div>
+  </a>
 
-### ☀️ Energy
-We develop and study new systems for solar to electricity and fuel conversion reactions.
-
----
-
+</div>
 
 ## Join the Lab
 
 We are always interested in motivated undergraduate, graduate, and postdoctoral researchers.
 
-Students in the group gain experience in:
-- Electrochemistry and reaction kinetics  
-- Catalysis and mechanistic analysis  
-- Inorganic synthesis  
+Students in the group gain experience in electrochemistry, catalysis, inorganic synthesis, spectroscopy, reaction kinetics, and quantitative data analysis.
 
-If you're interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
-
----
+If you are interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
 
 ## Get in Touch
 
