@@ -24,21 +24,21 @@ author_profile: true
   <a class="home-research-card home-card-eurefstics" href="/research/">
     <div class="home-card-content">
       <h3>Eurefstics</h3>
-      <p>Liquid-phase ammonia storage and delivery systems for energy applications.</p>
+      <p>Liquid-phase ammonia storage and electolyte systems for energy applications</p>
     </div>
   </a>
 
   <a class="home-research-card home-card-ammonia" href="/research/">
     <div class="home-card-content">
       <h3>Electrocatalysis of Ammonia</h3>
-      <p>Mechanistic studies of ammonia oxidation and nitrogen-based electrocatalysis.</p>
+      <p>Synthesis and mechanistic studies for electrocatalytic ammonia oxidation</p>
     </div>
   </a>
 
   <a class="home-research-card home-card-solar" href="/research/">
     <div class="home-card-content">
       <h3>Solar Energy Conversion</h3>
-      <p>Molecular systems for light-driven charge transfer and dye-sensitized solar cells.</p>
+      <p>Devise and investigate molecular systems for light-driven charge seperation and energy conversion</p>
     </div>
   </a>
 
@@ -49,8 +49,6 @@ author_profile: true
 We are always interested in motivated undergraduate, graduate, and postdoctoral researchers.
 
 Students in the group gain experience in electrochemistry, catalysis, inorganic synthesis, spectroscopy, reaction kinetics, and quantitative data analysis.
-
-If you are interested in using electrochemistry to understand how chemistry works at a fundamental level, we encourage you to get in touch.
 
 ## Get in Touch
 
