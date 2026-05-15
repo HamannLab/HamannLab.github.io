@@ -25,14 +25,13 @@ The Hamann Lab studies electrochemistry, catalysis, ammonia chemistry, and solar
 </div>
 
 <div class="research-card thrust-ammonia">
-  <h2>Electrocatalysis of Ammonia</h2>
+  <h2>Electrocatalytic Nitrogen Conversion</h2>
 
   <div class="research-card-body">
     <div class="research-card-text">
       <p>
-        Placeholder text: We study the electrochemical oxidation and transformation of ammonia
-        using molecular and heterogeneous catalyst systems. Our goal is to understand mechanisms,
-        thermodynamics, kinetics, and catalyst design principles for nitrogen-based energy chemistry.
+        We devise, synthesize, and investigate the mechanisms of transition metal catalysts for the 
+        electrochemical oxidation of ammonia and related reactions to realize the nitrogen energy economy.
       </p>
     </div>
 
