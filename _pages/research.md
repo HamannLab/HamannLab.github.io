@@ -47,10 +47,8 @@ The Hamann Lab studies electrochemistry, catalysis, ammonia chemistry, and solar
   <div class="research-card-body">
     <div class="research-card-text">
       <p>
-        Placeholder text: We investigate molecular systems for solar energy conversion, including
-        dye-sensitized solar cells and light-driven electron-transfer processes. Transition metal
-        complexes provide a platform for understanding charge separation, excited-state chemistry,
-        and interfacial electron transfer.
+        We develope and investigate molecular systems to control charge transfer reactions of 
+        transition metal photosensitizers and redox couples for renewable energy conversion systems.  
       </p>
     </div>
 
