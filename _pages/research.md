@@ -14,10 +14,7 @@ The Hamann Lab studies electrochemistry, catalysis, ammonia chemistry, and solar
     <div class="research-card-text">
       <p>
         We are developing the chemistry to enable room temperature, ambient pressure liquid-phase ammonia, which
-        we call "Eurefstics". This chemistry will enable safer and cheaper ammonia storage at large scale. 
-        We are interested in the thermodynamics of formation, reversibility, and developing our understanding 
-        of structure-function relationships of these interesting liquids. We are also investingating the potential
-        use of these materials as electrolytes in energy and catatalysis systems.
+        we call "Eurefstics", for ammonia storage and as electrolytes for energy conversion systems.
       </p>
     </div>
 
