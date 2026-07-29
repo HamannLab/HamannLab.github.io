@@ -75,6 +75,14 @@ html[data-theme="dark"] {
   line-height: 1.4;
 }
 
+.alumni-employer {
+  margin: 0.3rem 0 0 0;
+  color: var(--alumni-card-text);
+  font-size: 0.92rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
 .alumni-note {
   margin-top: 2.5rem;
   font-size: 0.88rem;
@@ -88,7 +96,7 @@ html[data-theme="dark"] {
 }
 </style>
 <p class="alumni-intro">
-Former members of the Hamann Lab are listed by their role in the group. Names link to a current professional or institutional profile when one could be confidently identified.
+Former members of the Hamann Lab are listed by their role in the group. Names link to professional or institutional profiles, and current affiliations are shown when they could be confidently verified.
 </p>
 
 <section class="alumni-section">
@@ -97,36 +105,43 @@ Former members of the Hamann Lab are listed by their role in the group. Names li
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/jesse-ondersma-61a64425" target="_blank" rel="noopener noreferrer">Jesse W. Ondersma</a></p>
       <p class="alumni-meta">PhD, 2012</p>
+      <p class="alumni-employer">Intertek</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/benjaminklahr" target="_blank" rel="noopener noreferrer">Benjamin M. Klahr</a></p>
       <p class="alumni-meta">PhD, 2013</p>
+      <p class="alumni-employer">Klahr Scientific</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://chemistry.nd.edu/people/kelley-young/" target="_blank" rel="noopener noreferrer">Kelley M. H. Young</a></p>
       <p class="alumni-meta">PhD, 2015</p>
+      <p class="alumni-employer">Notre Dame</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/omidzandi" target="_blank" rel="noopener noreferrer">Omid Zandi</a></p>
       <p class="alumni-meta">PhD, 2015</p>
+      <p class="alumni-employer">Boston Consulting Group</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/yuling-xie-52219479" target="_blank" rel="noopener noreferrer">Yuling Xie</a></p>
       <p class="alumni-meta">PhD, 2015</p>
+      <p class="alumni-employer">Vertex Pharmaceuticals</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/dhritabrata-mandal-phd-b51a5abb" target="_blank" rel="noopener noreferrer">Dhritabrata Mandal</a></p>
       <p class="alumni-meta">PhD, 2017</p>
+      <p class="alumni-employer">Intel</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/dr-daniel-j-little" target="_blank" rel="noopener noreferrer">Daniel J. Little</a></p>
       <p class="alumni-meta">PhD, 2017</p>
+      <p class="alumni-employer">Ohio Dominican University</p>
     </div>
 
     <div class="alumni-card">
@@ -137,51 +152,61 @@ Former members of the Hamann Lab are listed by their role in the group. Names li
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/josh-baillargeon-425705136" target="_blank" rel="noopener noreferrer">Josh Baillargeon</a></p>
       <p class="alumni-meta">PhD, 2018</p>
+      <p class="alumni-employer">Tokyo Electron</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/hhajibabaei" target="_blank" rel="noopener noreferrer">Hamed Hajibabaei Najafabadi</a></p>
       <p class="alumni-meta">PhD, 2018</p>
+      <p class="alumni-employer">Tokyo Electron</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/faeze-habibzadeh" target="_blank" rel="noopener noreferrer">Faezeh Habib Zadeh</a></p>
       <p class="alumni-meta">PhD, 2019</p>
+      <p class="alumni-employer">Lila Sciences</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/wbrightyj" target="_blank" rel="noopener noreferrer">Yujue Wang</a></p>
       <p class="alumni-meta">PhD, 2019</p>
+      <p class="alumni-employer">Intel</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/parisa-shadabipour-phd-455314ba" target="_blank" rel="noopener noreferrer">Parisa Shadabipour</a></p>
       <p class="alumni-meta">PhD, 2020</p>
+      <p class="alumni-employer">Rigaku</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/austin-raithel" target="_blank" rel="noopener noreferrer">Austin Raithel</a></p>
       <p class="alumni-meta">PhD, 2021</p>
+      <p class="alumni-employer">ICL Group</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/chuan-pin-chen-b0000b219" target="_blank" rel="noopener noreferrer">Chuan-Pin Chen</a></p>
       <p class="alumni-meta">PhD, 2024</p>
+      <p class="alumni-employer">Argonne National Laboratory</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/eric-firestone-a8b00581" target="_blank" rel="noopener noreferrer">Eric Firestone</a></p>
       <p class="alumni-meta">PhD, 2024</p>
+      <p class="alumni-employer">Lubrizol</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/soumikdas7" target="_blank" rel="noopener noreferrer">Soumik Das</a></p>
       <p class="alumni-meta">PhD, 2024</p>
+      <p class="alumni-employer">imec USA</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/samhita-kaushik" target="_blank" rel="noopener noreferrer">Samhita Kaushik</a></p>
       <p class="alumni-meta">PhD, 2024</p>
+      <p class="alumni-employer">Sibelco Group</p>
     </div>
 
 </div>
@@ -192,46 +217,55 @@ Former members of the Hamann Lab are listed by their role in the group. Names li
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/jasonmthornton" target="_blank" rel="noopener noreferrer">Jason M. Thornton</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2012–2013</p>
+      <p class="alumni-employer">Materion</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.niist.res.in/drsuraj-soman" target="_blank" rel="noopener noreferrer">Suraj Soman</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2011–2014</p>
+      <p class="alumni-employer">CSIR-NIIST</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://be.linkedin.com/in/jirossero" target="_blank" rel="noopener noreferrer">Jorge Ivan Rossero</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2014–2015</p>
+      <p class="alumni-employer">imec</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://de.linkedin.com/in/arianna-savini-34490239" target="_blank" rel="noopener noreferrer">Arianna Savini</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2014–2016</p>
+      <p class="alumni-employer">Henkel</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://de.linkedin.com/in/qiong-wang-902393120" target="_blank" rel="noopener noreferrer">Qiong Wang</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2016–2017</p>
+      <p class="alumni-employer">Helmholtz-Zentrum Berlin</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/geletuqing" target="_blank" rel="noopener noreferrer">Geletu Qing</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2017–2019</p>
+      <p class="alumni-employer">RTX</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://orcid.org/0000-0001-8510-8261" target="_blank" rel="noopener noreferrer">Tea-Yon Kim</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2018–2021</p>
+      <p class="alumni-employer">Lam Research</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/cjmi" target="_blank" rel="noopener noreferrer">Chenjia Mi</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2019–2022</p>
+      <p class="alumni-employer">University of Oklahoma</p>
     </div>
 
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/susanne-miller-4813a7191" target="_blank" rel="noopener noreferrer">Susanne Miller</a></p>
       <p class="alumni-meta">Postdoctoral researcher, 2017–2022</p>
+      <p class="alumni-employer">Niowave</p>
     </div>
 
 </div>
@@ -242,6 +276,7 @@ Former members of the Hamann Lab are listed by their role in the group. Names li
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/prabodha-b" target="_blank" rel="noopener noreferrer">Prabodha Balapuwaduge</a></p>
       <p class="alumni-meta">MS, 2021</p>
+      <p class="alumni-employer">Neogen</p>
     </div>
 
 </div>
@@ -257,10 +292,11 @@ Former members of the Hamann Lab are listed by their role in the group. Names li
     <div class="alumni-card">
       <p class="alumni-name"><a href="https://www.linkedin.com/in/abe-schon-088056215" target="_blank" rel="noopener noreferrer">Abraham R. Schon</a></p>
       <p class="alumni-meta">Undergraduate researcher, summers 2015–2017</p>
+      <p class="alumni-employer">John Deere</p>
     </div>
 
 </div>
 </section>
 <p class="alumni-note">
-Alumni may contact the Hamann Lab to add or update a professional profile link.
+Current affiliations are updated periodically. Alumni may contact the Hamann Lab to add or correct a professional profile or affiliation.
 </p>
