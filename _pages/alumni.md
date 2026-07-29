@@ -3,6 +3,7 @@ title: "Alumni"
 permalink: /alumni/
 layout: single
 author_profile: true
+---
 <style>
 :root {
   --alumni-card-bg: #ffffff;
@@ -85,28 +86,11 @@ html[data-theme="dark"] {
     grid-template-columns: 1fr;
   }
 }
-Alumni
+</style>
 <p class="alumni-intro">
 Former members of the Hamann Lab are listed by their role in the group. Names link to a current professional or institutional profile when one could be confidently identified.
 </p>
-<!--
-OPTIONAL ALUMNI PHOTO
 
-Upload a photo as:
-images/alumni-group.jpg
-
-Then remove the opening and closing comment markers around the image block below.
-
-<figure style="margin: 0 0 2rem 0;">
-  <img
-    src="{{ '/images/alumni-group.jpg' | relative_url }}"
-    alt="Hamann Lab alumni and group members"
-    style="width: 100%; max-height: 430px; object-fit: cover; border-radius: 14px;"
-  >
-  <figcaption style="margin-top: 0.45rem; font-size: 0.85rem; color: var(--global-text-color-light, #666666);">
-    Hamann Lab alumni and group members.
-  </figcaption>
-</figure>
 <section class="alumni-section">
   <h2>PhD Alumni</h2>
 <div class="alumni-grid">
