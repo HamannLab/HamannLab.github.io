@@ -8,6 +8,29 @@ author_profile: true
 ## Current Group Members
 
 <style>
+:root {
+  --person-card-bg: #ffffff;
+  --person-card-text: #333333;
+  --person-card-title: #3d2c8d;
+  --person-card-role: #18453b;
+  --person-card-muted: #555555;
+  --person-card-border: #e2e2e2;
+  --person-card-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  --person-card-image-bg: #f2f2f2;
+}
+
+/* Dark-mode colors for group-member cards */
+html[data-theme="dark"] {
+  --person-card-bg: #242424;
+  --person-card-text: #f2f2f2;
+  --person-card-title: #a394f0;
+  --person-card-role: #8fc9b5;
+  --person-card-muted: #c6c6c6;
+  --person-card-border: #444444;
+  --person-card-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  --person-card-image-bg: #333333;
+}
+
 .people-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -22,9 +45,14 @@ author_profile: true
   gap: 1.5rem;
   padding: 1.4rem 1.6rem;
   border-radius: 16px;
-  background: #ffffff;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+
+  background: var(--person-card-bg);
+  color: var(--person-card-text) !important;
+
+  border: 1px solid var(--person-card-border);
   border-left: 5px solid #18453b;
+
+  box-shadow: var(--person-card-shadow);
 }
 
 .person-card img {
@@ -34,33 +62,43 @@ author_profile: true
   object-position: center center;
   border-radius: 14px;
   flex-shrink: 0;
-  background: #f2f2f2;
+  background: var(--person-card-image-bg);
   color: transparent;
+}
+
+.person-info {
+  color: var(--person-card-text) !important;
 }
 
 .person-info h3 {
   margin-top: 0;
   margin-bottom: 0.25rem;
-  color: #3d2c8d;
+  color: var(--person-card-title) !important;
 }
 
 .person-info p {
   margin-top: 0;
   margin-bottom: 0.4rem;
+  color: var(--person-card-text) !important;
+}
+
+.person-info strong {
+  color: inherit;
 }
 
 .person-info .role {
   font-weight: 600;
-  color: #18453b;
+  color: var(--person-card-role) !important;
 }
 
 .person-info .dates {
   font-style: italic;
-  color: #555;
+  color: var(--person-card-muted) !important;
 }
 
 .person-info a {
   font-weight: 600;
+  color: var(--global-link-color, #3d2c8d) !important;
 }
 
 @media screen and (max-width: 700px) {
@@ -76,7 +114,6 @@ author_profile: true
   }
 }
 </style>
-
 ### Principal Investigator
 
 <div class="people-grid">
