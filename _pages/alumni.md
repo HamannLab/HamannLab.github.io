@@ -98,7 +98,11 @@ html[data-theme="dark"] {
 <p class="alumni-intro">
 Former members of the Hamann Lab are listed by their role in the group. Names link to professional or institutional profiles, and current affiliations are shown when they could be confidently verified.
 </p>
-
+<p style="margin-top: -1rem; margin-bottom: 2rem;">
+  <a href="{{ '/group-photos/' | relative_url }}">
+    <strong>Group Photos Through the Years →</strong>
+  </a>
+</p>
 <section class="alumni-section">
   <h2>PhD Alumni</h2>
 <div class="alumni-grid">
